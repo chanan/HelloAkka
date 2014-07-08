@@ -1,0 +1,3 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/ubrauch/java/HelloAkka/conf/application.conf,/Users/ubrauch/java/HelloAkka/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ubrauch/java/HelloAkka/conf/routes,/Users/ubrauch/java/HelloAkka/target/scala-2.11/classes/routes)[0m

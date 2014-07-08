@@ -1,0 +1,1059 @@
+2014-07-07 13:36:48,036 - [INFO] - from play in pool-4-thread-6 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2014-07-07 13:37:10,735 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 13:37:16,873 - [INFO] - from play in play-akka.actor.default-dispatcher-2 
+Starting application default Akka system.
+
+2014-07-07 13:37:16,899 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About me: Actor[akka://application/user/$a#1287776709]
+
+2014-07-07 13:37:21,900 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+Did the work: HI
+
+2014-07-07 13:58:31,486 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$b#-1158867557]
+
+2014-07-07 13:58:35,971 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/$c#505754537]
+
+2014-07-07 13:58:36,487 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-07 13:58:38,997 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$d#866170665]
+
+2014-07-07 13:58:40,972 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+Did the work: HI
+
+2014-07-07 13:58:41,189 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/$e#-2071512712]
+
+2014-07-07 13:58:42,749 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About me: Actor[akka://application/user/$f#648165891]
+
+2014-07-07 13:58:43,917 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
+About me: Actor[akka://application/user/$g#-1860834967]
+
+2014-07-07 13:58:43,998 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-07 13:58:44,909 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
+About me: Actor[akka://application/user/$h#187618701]
+
+2014-07-07 13:58:45,803 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$i#-1725697557]
+
+2014-07-07 13:58:46,190 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+Did the work: HI
+
+2014-07-07 13:58:46,788 - [DEBUG] - from application in application-akka.actor.default-dispatcher-9 
+About me: Actor[akka://application/user/$j#671658708]
+
+2014-07-07 13:58:47,740 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/$k#1826417306]
+
+2014-07-07 13:58:47,750 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+Did the work: HI
+
+2014-07-07 13:58:48,829 - [DEBUG] - from application in application-akka.actor.default-dispatcher-10 
+About me: Actor[akka://application/user/$l#-692333261]
+
+2014-07-07 13:58:48,917 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
+Did the work: HI
+
+2014-07-07 13:58:49,788 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About me: Actor[akka://application/user/$m#-1141884675]
+
+2014-07-07 13:58:49,910 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
+Did the work: HI
+
+2014-07-07 13:58:50,724 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
+About me: Actor[akka://application/user/$n#-57840102]
+
+2014-07-07 13:58:50,803 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-07 13:58:51,627 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
+About me: Actor[akka://application/user/$o#-1931660377]
+
+2014-07-07 13:58:51,789 - [DEBUG] - from application in application-akka.actor.default-dispatcher-9 
+Did the work: HI
+
+2014-07-07 13:58:52,502 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$p#2003559964]
+
+2014-07-07 13:58:52,740 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+Did the work: HI
+
+2014-07-07 13:58:53,362 - [DEBUG] - from application in application-akka.actor.default-dispatcher-9 
+About me: Actor[akka://application/user/$q#-115327688]
+
+2014-07-07 13:58:53,829 - [DEBUG] - from application in application-akka.actor.default-dispatcher-10 
+Did the work: HI
+
+2014-07-07 13:58:54,123 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/$r#-943151993]
+
+2014-07-07 13:58:54,789 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+Did the work: HI
+
+2014-07-07 13:58:54,874 - [DEBUG] - from application in application-akka.actor.default-dispatcher-10 
+About me: Actor[akka://application/user/$s#1042933396]
+
+2014-07-07 13:58:55,603 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About me: Actor[akka://application/user/$t#1568271291]
+
+2014-07-07 13:58:55,725 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
+Did the work: HI
+
+2014-07-07 13:58:56,483 - [DEBUG] - from application in application-akka.actor.default-dispatcher-11 
+About me: Actor[akka://application/user/$u#-1535364349]
+
+2014-07-07 13:58:56,628 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
+Did the work: HI
+
+2014-07-07 13:58:57,290 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
+About me: Actor[akka://application/user/$v#-682634243]
+
+2014-07-07 13:58:57,503 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-07 13:58:58,074 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$w#1118268883]
+
+2014-07-07 13:58:58,364 - [DEBUG] - from application in application-akka.actor.default-dispatcher-9 
+Did the work: HI
+
+2014-07-07 13:58:58,962 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
+About me: Actor[akka://application/user/$x#-1529265302]
+
+2014-07-07 13:58:59,124 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+Did the work: HI
+
+2014-07-07 13:58:59,821 - [DEBUG] - from application in application-akka.actor.default-dispatcher-9 
+About me: Actor[akka://application/user/$y#-165787716]
+
+2014-07-07 13:58:59,876 - [DEBUG] - from application in application-akka.actor.default-dispatcher-10 
+Did the work: HI
+
+2014-07-07 13:59:00,571 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/$z#901723577]
+
+2014-07-07 13:59:00,604 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+Did the work: HI
+
+2014-07-07 13:59:01,484 - [DEBUG] - from application in application-akka.actor.default-dispatcher-11 
+Did the work: HI
+
+2014-07-07 13:59:01,530 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About me: Actor[akka://application/user/$A#807295565]
+
+2014-07-07 13:59:02,291 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
+Did the work: HI
+
+2014-07-07 13:59:02,459 - [DEBUG] - from application in application-akka.actor.default-dispatcher-11 
+About me: Actor[akka://application/user/$B#-948360098]
+
+2014-07-07 13:59:03,076 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-07 13:59:03,963 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
+Did the work: HI
+
+2014-07-07 13:59:04,822 - [DEBUG] - from application in application-akka.actor.default-dispatcher-9 
+Did the work: HI
+
+2014-07-07 13:59:05,572 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+Did the work: HI
+
+2014-07-07 13:59:06,531 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+Did the work: HI
+
+2014-07-07 13:59:07,460 - [DEBUG] - from application in application-akka.actor.default-dispatcher-11 
+Did the work: HI
+
+2014-07-07 14:03:20,491 - [ERROR] - from application in New I/O worker #11 
+
+
+! @6in9k5ai1 - Internal server error, for (GET) [/doGlobalwork] ->
+
+play.PlayExceptions$CompilationException: Compilation error[value doGlobalwork is not a member of object controllers.Application]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:297) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$play$PlayReloader$$anon$$taskFailureHandler$1.apply(PlayReloader.scala:292) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.play$PlayReloader$$anon$$taskFailureHandler(PlayReloader.scala:292) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:325) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:325) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:325) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:107) ~[play_2.11-2.3.1.jar:2.3.1]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:105) ~[play_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2014-07-07 14:03:57,018 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 14:03:57,093 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 14:03:57,106 - [INFO] - from play in play-akka.actor.default-dispatcher-5 
+Starting application default Akka system.
+
+2014-07-07 14:03:57,110 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About me: Actor[akka://application/user/$a#-1285812010]
+
+2014-07-07 14:04:02,111 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+Did the work: HI
+
+2014-07-07 14:04:03,607 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About me: Actor[akka://application/user/$a#-1285812010]
+
+2014-07-07 14:04:08,608 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+Did the work: HI
+
+2014-07-07 14:04:08,608 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About me: Actor[akka://application/user/$a#-1285812010]
+
+2014-07-07 14:04:13,609 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+Did the work: HI
+
+2014-07-07 14:09:34,982 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 14:09:35,024 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 14:09:35,039 - [INFO] - from play in play-akka.actor.default-dispatcher-6 
+Starting application default Akka system.
+
+2014-07-07 14:09:35,049 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/name#-924098533]
+
+2014-07-07 14:09:40,050 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-07 14:26:41,608 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 14:26:41,636 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 14:26:41,646 - [INFO] - from play in play-akka.actor.default-dispatcher-7 
+Starting application default Akka system.
+
+2014-07-07 14:26:41,652 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$b#1765260281]
+
+2014-07-07 14:26:46,654 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HELLO
+
+2014-07-07 14:28:11,515 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 14:28:11,544 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 14:28:11,552 - [INFO] - from play in play-akka.actor.default-dispatcher-8 
+Starting application default Akka system.
+
+2014-07-07 14:28:11,558 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+About me: Actor[akka://application/user/$b#-1636439768]
+
+2014-07-07 14:28:16,558 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+Did the work: HELLO-1
+
+2014-07-07 14:28:20,698 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+About me: Actor[akka://application/user/$c#-577881840]
+
+2014-07-07 14:28:25,699 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+Did the work: HELLO-2
+
+2014-07-07 14:28:50,495 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 14:28:50,520 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 14:28:50,528 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
+Starting application default Akka system.
+
+2014-07-07 14:28:50,532 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/service/$a#1522419612]
+
+2014-07-07 14:28:55,533 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+Did the work: HELLO-1
+
+2014-07-07 14:37:38,938 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 14:37:38,968 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 14:37:38,978 - [INFO] - from play in play-akka.actor.default-dispatcher-10 
+Starting application default Akka system.
+
+2014-07-07 14:37:38,983 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About me: Actor[akka://application/user/service/$a#648014522]
+
+2014-07-07 14:37:43,984 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+Did the work: HELLO ASK-1
+
+2014-07-07 14:37:50,822 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About me: Actor[akka://application/user/service/$b#206635566]
+
+2014-07-07 14:37:55,822 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+Did the work: HELLO ASK-2
+
+2014-07-07 14:37:57,152 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+About me: Actor[akka://application/user/service/$c#-1583166863]
+
+2014-07-07 14:37:57,978 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/service/$d#-1742297069]
+
+2014-07-07 14:37:58,545 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About me: Actor[akka://application/user/service/$e#2066020884]
+
+2014-07-07 14:37:59,089 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/service/$f#-90261775]
+
+2014-07-07 14:37:59,641 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About me: Actor[akka://application/user/service/$g#-1928653099]
+
+2014-07-07 14:38:00,170 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
+About me: Actor[akka://application/user/service/$h#-2090873808]
+
+2014-07-07 14:38:00,637 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
+About me: Actor[akka://application/user/service/$i#-740937302]
+
+2014-07-07 14:38:01,089 - [DEBUG] - from application in application-akka.actor.default-dispatcher-9 
+About me: Actor[akka://application/user/service/$j#1647564521]
+
+2014-07-07 14:38:01,617 - [DEBUG] - from application in application-akka.actor.default-dispatcher-11 
+About me: Actor[akka://application/user/service/$k#-101217940]
+
+2014-07-07 14:38:02,137 - [DEBUG] - from application in application-akka.actor.default-dispatcher-10 
+About me: Actor[akka://application/user/service/$l#-1551949596]
+
+2014-07-07 14:38:02,154 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+Did the work: HELLO ASK-3
+
+2014-07-07 14:38:02,554 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+About me: Actor[akka://application/user/service/$m#2049131463]
+
+2014-07-07 14:38:02,979 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HELLO ASK-4
+
+2014-07-07 14:38:03,146 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/service/$n#1062693736]
+
+2014-07-07 14:38:03,546 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+Did the work: HELLO ASK-5
+
+2014-07-07 14:38:04,090 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+Did the work: HELLO ASK-6
+
+2014-07-07 14:38:04,642 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+Did the work: HELLO ASK-7
+
+2014-07-07 14:38:05,170 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
+Did the work: HELLO ASK-8
+
+2014-07-07 14:38:05,638 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
+Did the work: HELLO ASK-9
+
+2014-07-07 14:38:06,089 - [DEBUG] - from application in application-akka.actor.default-dispatcher-9 
+Did the work: HELLO ASK-10
+
+2014-07-07 14:38:06,618 - [DEBUG] - from application in application-akka.actor.default-dispatcher-11 
+Did the work: HELLO ASK-11
+
+2014-07-07 14:38:07,138 - [DEBUG] - from application in application-akka.actor.default-dispatcher-10 
+Did the work: HELLO ASK-12
+
+2014-07-07 14:38:07,554 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+Did the work: HELLO ASK-13
+
+2014-07-07 14:38:08,147 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HELLO ASK-14
+
+2014-07-07 15:02:45,595 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 15:02:45,628 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 15:02:45,637 - [INFO] - from play in play-akka.actor.default-dispatcher-15 
+Starting application default Akka system.
+
+2014-07-07 15:02:45,641 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About me: Actor[akka://application/user/service/$a#1629612732]
+
+2014-07-07 15:02:50,642 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+Did the work: ERROR-1
+
+2014-07-07 15:03:26,692 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 15:03:26,710 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 15:03:26,721 - [INFO] - from play in play-akka.actor.default-dispatcher-18 
+Starting application default Akka system.
+
+2014-07-07 15:03:26,724 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/service/$a#-847458416]
+
+2014-07-07 15:03:36,739 - [ERROR] - from play in play-akka.actor.default-dispatcher-18 
+Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#1355384806]] after [10000 ms]
+
+2014-07-07 15:03:36,746 - [ERROR] - from application in play-akka.actor.default-dispatcher-18 
+
+
+! @6ina23450 - Internal server error, for (GET) [/serviceCallError] ->
+
+play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#1355384806]] after [10000 ms]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.3.1.jar:2.3.1]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.3.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#1355384806]] after [10000 ms]
+	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
+
+2014-07-07 15:06:47,134 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 15:06:47,152 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 15:06:47,161 - [INFO] - from play in play-akka.actor.default-dispatcher-19 
+Starting application default Akka system.
+
+2014-07-07 15:06:47,165 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About me: Actor[akka://application/user/service/$a#-114351653]
+
+2014-07-07 15:06:57,178 - [ERROR] - from play in play-akka.actor.default-dispatcher-19 
+Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#902816667]] after [10000 ms]
+
+2014-07-07 15:06:57,180 - [ERROR] - from application in play-akka.actor.default-dispatcher-19 
+
+
+! @6ina2eei0 - Internal server error, for (GET) [/serviceCallError] ->
+
+play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#902816667]] after [10000 ms]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.3.1.jar:2.3.1]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.3.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#902816667]] after [10000 ms]
+	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
+
+2014-07-07 15:11:22,392 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 15:11:22,415 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 15:11:22,422 - [INFO] - from play in play-akka.actor.default-dispatcher-20 
+Starting application default Akka system.
+
+2014-07-07 15:11:22,431 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/service/$a#-789938140]
+
+2014-07-07 15:11:22,431 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+E: java.lang.IllegalArgumentException: Cannot handle the word error!
+
+2014-07-07 15:11:32,441 - [ERROR] - from play in play-akka.actor.default-dispatcher-20 
+Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#806178258]] after [10000 ms]
+
+2014-07-07 15:11:32,443 - [ERROR] - from application in play-akka.actor.default-dispatcher-20 
+
+
+! @6ina345n2 - Internal server error, for (GET) [/serviceCallError] ->
+
+play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#806178258]] after [10000 ms]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.3.1.jar:2.3.1]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.3.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#806178258]] after [10000 ms]
+	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
+
+2014-07-07 15:11:51,286 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About me: Actor[akka://application/user/service/$b#-1373005186]
+
+2014-07-07 15:11:56,287 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+Did the work: HELLO ASK-2
+
+2014-07-07 15:12:01,787 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About me: Actor[akka://application/user/service/$c#-1832893767]
+
+2014-07-07 15:12:01,787 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+E: java.lang.IllegalArgumentException: Cannot handle the word error!
+
+2014-07-07 15:12:11,802 - [ERROR] - from play in play-akka.actor.default-dispatcher-22 
+Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#806178258]] after [10000 ms]
+
+2014-07-07 15:12:11,803 - [ERROR] - from application in play-akka.actor.default-dispatcher-22 
+
+
+! @6ina36c2n - Internal server error, for (GET) [/serviceCallError] ->
+
+play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#806178258]] after [10000 ms]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.3.1.jar:2.3.1]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.3.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#806178258]] after [10000 ms]
+	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
+
+2014-07-07 15:17:12,939 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 15:17:12,956 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 15:17:12,964 - [INFO] - from play in play-akka.actor.default-dispatcher-21 
+Starting application default Akka system.
+
+2014-07-07 15:17:12,967 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/name#1717200181]
+
+2014-07-07 15:17:17,968 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-07 16:04:34,483 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 16:04:34,508 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 16:04:34,516 - [INFO] - from play in play-akka.actor.default-dispatcher-23 
+Starting application default Akka system.
+
+2014-07-07 16:04:34,521 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/service/$a#1873179645]
+
+2014-07-07 16:04:34,522 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+E: java.lang.IllegalArgumentException: Cannot handle the word error!
+
+2014-07-07 16:04:44,535 - [ERROR] - from play in play-akka.actor.default-dispatcher-23 
+Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#-1677556654]] after [10000 ms]
+
+2014-07-07 16:04:44,537 - [ERROR] - from application in play-akka.actor.default-dispatcher-23 
+
+
+! @6inaa3lnn - Internal server error, for (GET) [/serviceCallError] ->
+
+play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#-1677556654]] after [10000 ms]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.3.1.jar:2.3.1]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.3.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#-1677556654]] after [10000 ms]
+	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
+
+2014-07-07 16:06:06,037 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 16:06:06,064 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 16:06:06,072 - [INFO] - from play in play-akka.actor.default-dispatcher-24 
+Starting application default Akka system.
+
+2014-07-07 16:06:06,075 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/name#-341967254] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-07 16:06:11,075 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-07 16:11:49,634 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-07 16:11:49,657 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-07 16:11:49,666 - [INFO] - from play in play-akka.actor.default-dispatcher-25 
+Starting application default Akka system.
+
+2014-07-07 16:11:49,670 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+About service: Actor[akka://application/user/service#-285536461] Thread: application-akka.actor.default-dispatcher-2
+
+2014-07-07 16:11:49,672 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/service/$a#1722207830] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-07 16:11:49,672 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+E: java.lang.IllegalArgumentException: Cannot handle the word error!
+
+2014-07-07 16:11:59,684 - [ERROR] - from play in play-akka.actor.default-dispatcher-25 
+Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#-285536461]] after [10000 ms]
+
+2014-07-07 16:11:59,685 - [ERROR] - from application in play-akka.actor.default-dispatcher-25 
+
+
+! @6inab2fg9 - Internal server error, for (GET) [/serviceCallError] ->
+
+play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#-285536461]] after [10000 ms]]]
+	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
+	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
+	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.1.jar:2.3.1]
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.3.1.jar:2.3.1]
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.3.jar:na]
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
+Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/service#-285536461]] after [10000 ms]
+	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
+	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
+
+2014-07-08 07:49:29,334 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 07:49:29,364 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 07:49:29,374 - [INFO] - from play in play-akka.actor.default-dispatcher-26 
+Starting application default Akka system.
+
+2014-07-08 07:49:29,379 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/complex_service#1216477107] Thread: application-akka.actor.default-dispatcher-4
+
+2014-07-08 07:49:29,380 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About CoordinatorActor ToUpperRequest: Actor[akka://application/user/complex_service/$a#-1575823305] Thread: application-akka.actor.default-dispatcher-3
+
+2014-07-08 07:49:29,381 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About ToUpperRequest service: Actor[akka://application/user/complex_service/$a/$a#697619630] Thread: application-akka.actor.default-dispatcher-4
+
+2014-07-08 07:49:32,381 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About CoordinatorActor ToUpperResponse: Actor[akka://application/user/complex_service/$a#-1575823305] Thread: application-akka.actor.default-dispatcher-3
+
+2014-07-08 07:49:32,382 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About ToFirstCharLowerRequest service: Actor[akka://application/user/complex_service/$a/$b#-40145339] Thread: application-akka.actor.default-dispatcher-4
+
+2014-07-08 07:49:34,383 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/complex_service/$a#-1575823305] Thread: application-akka.actor.default-dispatcher-3
+
+2014-07-08 07:50:14,725 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 07:50:14,747 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 07:50:14,756 - [INFO] - from play in play-akka.actor.default-dispatcher-27 
+Starting application default Akka system.
+
+2014-07-08 07:50:14,760 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/complex_service#-2026462099] Thread: application-akka.actor.default-dispatcher-3
+
+2014-07-08 07:50:14,762 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About CoordinatorActor ToUpperRequest: Actor[akka://application/user/complex_service/$a#-1895724337] Thread: application-akka.actor.default-dispatcher-3
+
+2014-07-08 07:50:14,764 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About ToUpperRequest service: Actor[akka://application/user/complex_service/$a/$a#-219674288] Thread: application-akka.actor.default-dispatcher-4
+
+2014-07-08 07:50:17,765 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About CoordinatorActor ToUpperResponse: Actor[akka://application/user/complex_service/$a#-1895724337] Thread: application-akka.actor.default-dispatcher-3
+
+2014-07-08 07:50:17,766 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About ToFirstCharLowerRequest service: Actor[akka://application/user/complex_service/$a/$b#122649282] Thread: application-akka.actor.default-dispatcher-4
+
+2014-07-08 07:50:19,767 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/complex_service/$a#-1895724337] Thread: application-akka.actor.default-dispatcher-3
+
+2014-07-08 15:07:55,134 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+About me: Actor[akka://application/user/$b#-118765613] Thread: application-akka.actor.default-dispatcher-2
+
+2014-07-08 15:08:00,138 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+Did the work: HI
+
+2014-07-08 15:11:13,716 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About me: Actor[akka://application/user/$c#1825736635] Thread: application-akka.actor.default-dispatcher-6
+
+2014-07-08 15:11:18,716 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+Did the work: HI
+
+2014-07-08 15:12:41,984 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 15:12:42,011 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 15:12:42,022 - [INFO] - from play in play-akka.actor.default-dispatcher-34 
+Starting application default Akka system.
+
+2014-07-08 15:15:04,420 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 15:15:04,442 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 15:15:04,449 - [INFO] - from play in play-akka.actor.default-dispatcher-35 
+Starting application default Akka system.
+
+2014-07-08 15:15:04,453 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About me: Actor[akka://application/user/$b#-1456955281] Thread: application-akka.actor.default-dispatcher-4
+
+2014-07-08 15:15:09,454 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+Did the work: HI
+
+2014-07-08 15:17:40,756 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$a#653190886] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:17:45,757 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-08 15:17:45,757 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$a#653190886] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:17:50,757 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-08 15:17:50,757 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$a#653190886] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:17:55,759 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-08 15:17:55,759 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$a#653190886] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:18:00,760 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-08 15:18:00,760 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$a#653190886] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:18:05,761 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-08 15:18:48,743 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$a#653190886] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:18:53,743 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-08 15:18:53,744 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$a#653190886] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:18:58,744 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-08 15:18:58,744 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/$a#653190886] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:19:03,745 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-08 15:22:14,298 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/name#749982949] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:22:19,299 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HI
+
+2014-07-08 15:30:33,243 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 15:30:33,267 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 15:30:33,276 - [INFO] - from play in play-akka.actor.default-dispatcher-39 
+Starting application default Akka system.
+
+2014-07-08 15:30:33,279 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+About service: Actor[akka://application/user/service#872087735] Thread: application-akka.actor.default-dispatcher-2
+
+2014-07-08 15:30:33,280 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/service/$a#-1390840959] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:30:38,281 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HELLO-1
+
+2014-07-08 15:31:30,048 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About service: Actor[akka://application/user/service#872087735] Thread: application-akka.actor.default-dispatcher-4
+
+2014-07-08 15:31:30,049 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/service/$b#176021393] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:31:35,049 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HELLO-2
+
+2014-07-08 15:33:24,865 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 15:33:24,890 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 15:33:24,899 - [INFO] - from play in play-akka.actor.default-dispatcher-41 
+Starting application default Akka system.
+
+2014-07-08 15:35:12,842 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 15:35:12,866 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 15:35:12,878 - [INFO] - from play in play-akka.actor.default-dispatcher-42 
+Starting application default Akka system.
+
+2014-07-08 15:35:12,883 - [ERROR] - from application in application-akka.actor.default-dispatcher-3 
+I cannot handle objects of type: java.lang.String
+
+2014-07-08 15:35:41,620 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 15:35:41,636 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 15:35:41,643 - [INFO] - from play in play-akka.actor.default-dispatcher-43 
+Starting application default Akka system.
+
+2014-07-08 15:35:41,647 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+About service: Actor[akka://application/user/service#-641393013] Thread: application-akka.actor.default-dispatcher-2
+
+2014-07-08 15:35:41,649 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About me: Actor[akka://application/user/service/$a#-926046533] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:35:46,649 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+Did the work: HELLO-1
+
+2014-07-08 15:37:36,092 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 15:37:36,118 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 15:37:36,125 - [INFO] - from play in play-akka.actor.default-dispatcher-44 
+Starting application default Akka system.
+
+2014-07-08 15:37:36,130 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About service: Actor[akka://application/user/service#943512655] Thread: application-akka.actor.default-dispatcher-4
+
+2014-07-08 15:37:36,132 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+About me: Actor[akka://application/user/service/$a#-467591835] Thread: application-akka.actor.default-dispatcher-2
+
+2014-07-08 15:37:41,132 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
+Did the work: HELLO-1
+
+2014-07-08 15:45:18,849 - [INFO] - from play in play-internal-execution-context-1 
+Shutdown application default Akka system.
+
+2014-07-08 15:45:18,871 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2014-07-08 15:45:18,880 - [INFO] - from play in play-akka.actor.default-dispatcher-45 
+Starting application default Akka system.
+
+2014-07-08 15:45:18,884 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
+About service: Actor[akka://application/user/service#-1060202315] Thread: application-akka.actor.default-dispatcher-4
+
+2014-07-08 15:45:18,885 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+About me: Actor[akka://application/user/service/$a#2078342987] Thread: application-akka.actor.default-dispatcher-3
+
+2014-07-08 15:45:23,886 - [DEBUG] - from application in application-akka.actor.default-dispatcher-3 
+Did the work: HELLO ASK-1
+
+2014-07-08 15:55:56,102 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/complex_service#-259412187] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:55:56,106 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About CoordinatorActor ToUpperRequest: Actor[akka://application/user/complex_service/$a#861376980] Thread: application-akka.actor.default-dispatcher-6
+
+2014-07-08 15:55:56,108 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About ToUpperRequest service: Actor[akka://application/user/complex_service/$a/$a#261620119] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:55:59,109 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About CoordinatorActor ToUpperResponse: Actor[akka://application/user/complex_service/$a#861376980] Thread: application-akka.actor.default-dispatcher-6
+
+2014-07-08 15:55:59,110 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
+About ToFirstCharLowerRequest service: Actor[akka://application/user/complex_service/$a/$b#-1782604040] Thread: application-akka.actor.default-dispatcher-5
+
+2014-07-08 15:56:01,110 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
+About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/complex_service/$a#861376980] Thread: application-akka.actor.default-dispatcher-6
+
