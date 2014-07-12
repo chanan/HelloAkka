@@ -4,7 +4,7 @@
 		module="helloakka$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20140711163642"
+		publication="20140712105810"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -204,34 +204,6 @@
 		<dependency org="org.apache.tomcat" name="tomcat-servlet-api" rev="8.0.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="tomcat-servlet-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="com.typesafe.play" name="play-java-jdbc_2.11" rev="2.3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="play-java-jdbc_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="com.typesafe.play" name="play-jdbc_2.11" rev="2.3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="play-jdbc_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="com.jolbox" name="bonecp" rev="0.8.0.RELEASE" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="bonecp" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="bonecp" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="com.h2database" name="h2" rev="1.3.175" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="h2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="h2" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="com.typesafe.play" name="play-java-ebean_2.11" rev="2.3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="play-java-ebean_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="org.avaje.ebeanorm" name="avaje-ebeanorm" rev="3.3.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="avaje-ebeanorm" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="avaje-ebeanorm" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.avaje.ebeanorm" name="avaje-ebeanorm-agent" rev="3.2.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="avaje-ebeanorm-agent" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-			<artifact name="avaje-ebeanorm-agent" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
-		</dependency>
-		<dependency org="org.hibernate.javax.persistence" name="hibernate-jpa-2.0-api" rev="1.0.1.Final" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
-			<artifact name="hibernate-jpa-2.0-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.3.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="play-cache_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
@@ -266,6 +238,14 @@
 		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);compile-internal->default(compile);runtime-internal->default(compile)">
 			<artifact name="commons-logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="commons-logging" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.datastax.cassandra" name="cassandra-driver-core" rev="2.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="cassandra-driver-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="cassandra-driver-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="com.codahale.metrics" name="metrics-core" rev="3.0.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="metrics-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="metrics-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.3.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="play-test_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
@@ -413,7 +393,7 @@
 			<artifact name="xalan" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="xalan" name="serializer" rev="2.7.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
-			<artifact name="serializer" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+			<artifact name="serializer" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="commons-collections" type="src" ext="jar" conf="sources" e:classifier="sources"/>

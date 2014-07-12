@@ -1,4 +1,30 @@
-This is your new Play application
-=================================
+CQL Commands to create the keyspace for the C* actors:
 
-This file will be packaged with your application, when using `activator dist`.
+DROP KEYSPACE helloakka;
+
+CREATE KEYSPACE helloakka
+WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+
+USE helloakka;
+
+CREATE TABLE IF NOT EXISTS helloakka.courses (
+	course_id text,
+	name text,
+	PRIMARY KEY (course_id)
+);
+
+INSERT INTO helloakka.courses (course_id, name) VALUES ('C1', 'My course') IF NOT EXISTS;
+INSERT INTO helloakka.courses (course_id, name) VALUES ('C2', 'My second course') IF NOT EXISTS;
+
+CREATE TABLE IF NOT EXISTS helloakka.students (
+	student_id text, 
+	course_id text,
+	name text,
+	PRIMARY KEY (course_id, student_id) 
+);
+
+INSERT INTO helloakka.students (student_id, course_id, name) VALUES ('S1', 'C1', 'John Smith') IF NOT EXISTS;
+INSERT INTO helloakka.students (student_id, course_id, name) VALUES ('S2', 'C1', 'John Doe') IF NOT EXISTS;
+INSERT INTO helloakka.students (student_id, course_id, name) VALUES ('S3', 'C1', 'Jane Smith') IF NOT EXISTS;
+INSERT INTO helloakka.students (student_id, course_id, name) VALUES ('S4', 'C2', 'Abraham Lincoln') IF NOT EXISTS;
+INSERT INTO helloakka.students (student_id, course_id, name) VALUES ('S1', 'C2', 'John Smith') IF NOT EXISTS;

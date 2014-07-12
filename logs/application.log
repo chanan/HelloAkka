@@ -1,63 +1,21 @@
-2014-07-11 17:40:40,422 - [INFO] - from play in pool-4-thread-4 
+2014-07-12 18:07:41,441 - [INFO] - from play in pool-4-thread-6 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2014-07-11 17:40:41,892 - [INFO] - from play in play-internal-execution-context-1 
+2014-07-12 18:08:27,184 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2014-07-11 17:40:42,144 - [INFO] - from play in play-akka.actor.default-dispatcher-2 
+2014-07-12 18:08:27,564 - [INFO] - from play in play-akka.actor.default-dispatcher-3 
 Starting application default Akka system.
 
-2014-07-11 17:40:42,190 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#1167802373] Thread: application-akka.actor.default-dispatcher-7
+2014-07-12 18:08:28,073 - [ERROR] - from play in play-akka.actor.default-dispatcher-3 
+Cannot invoke the action, eventually got an error: java.lang.ClassCastException: viewmodels.courses.Course cannot be cast to models.courses.Queries$CourseResponse
 
-2014-07-11 17:40:42,199 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$a/$a#-1688772132] Thread: application-akka.actor.default-dispatcher-7
-
-2014-07-11 17:40:42,201 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$a/$a/$a#314287050] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:40:42,205 - [INFO] - from application in application-akka.actor.default-dispatcher-5 
-Lets retry our work by escalating!
-
-2014-07-11 17:40:42,211 - [INFO] - from application in application-akka.actor.default-dispatcher-5 
-Lets retry our work!
-
-2014-07-11 17:40:42,211 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$a/$b#836451302] Thread: application-akka.actor.default-dispatcher-7
-
-2014-07-11 17:40:42,212 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$a/$b/$a#-2039330181] Thread: application-akka.actor.default-dispatcher-7
-
-2014-07-11 17:40:42,212 - [INFO] - from application in application-akka.actor.default-dispatcher-4 
-Lets retry our work by escalating!
-
-2014-07-11 17:40:42,214 - [INFO] - from application in application-akka.actor.default-dispatcher-5 
-Lets retry our work!
-
-2014-07-11 17:40:42,214 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$a/$c#1190313025] Thread: application-akka.actor.default-dispatcher-4
-
-2014-07-11 17:40:42,215 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$a/$c/$a#1128007040] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:40:43,216 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
-About CoordinatorActor ToUpperResponse: Actor[akka://application/user/fault_complex/$a/$c#1190313025] Thread: application-akka.actor.default-dispatcher-6
-
-2014-07-11 17:40:43,216 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ToFirstCharLowerRequest service: Actor[akka://application/user/fault_complex/$a/$c/$b#1260140455] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:40:44,218 - [DEBUG] - from application in application-akka.actor.default-dispatcher-6 
-About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/fault_complex/$a/$c#1190313025] Thread: application-akka.actor.default-dispatcher-6
-
-2014-07-11 17:40:47,172 - [ERROR] - from play in play-akka.actor.default-dispatcher-7 
-Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#1167802373]] after [5000 ms]
-
-2014-07-11 17:40:47,182 - [ERROR] - from application in play-akka.actor.default-dispatcher-7 
+2014-07-12 18:08:28,088 - [ERROR] - from application in play-akka.actor.default-dispatcher-3 
 
 
-! @6iodp0n3h - Internal server error, for (GET) [/FaultTolerantComplexServiceActor] ->
+! @6iol9j4jd - Internal server error, for (GET) [/gradebook/course/C1] ->
 
-play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#1167802373]] after [5000 ms]]]
+play.api.Application$$anon$1: Execution exception[[ClassCastException: viewmodels.courses.Course cannot be cast to models.courses.Queries$CourseResponse]]
 	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
 	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
 	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
@@ -83,336 +41,21 @@ play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask time
 	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
 	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
-Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#1167802373]] after [5000 ms]
-	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
-	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
-	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
+Caused by: java.lang.ClassCastException: viewmodels.courses.Course cannot be cast to models.courses.Queries$CourseResponse
+	at controllers.Gradebook.lambda$course$33(Gradebook.java:24) ~[classes/:na]
+	at controllers.Gradebook$$Lambda$1/1446880170.apply(Unknown Source) ~[na:na]
+	at play.core.j.FPromiseHelper$$anonfun$map$1.apply(FPromiseHelper.scala:98) ~[play_2.11-2.3.1.jar:2.3.1]
+	at scala.util.Success$$anonfun$map$1.apply(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	at scala.util.Try$.apply(Try.scala:191) ~[scala-library-2.11.1.jar:na]
+	at scala.util.Success.map(Try.scala:236) ~[scala-library-2.11.1.jar:na]
+	... 10 common frames omitted
 
-2014-07-11 17:41:29,382 - [INFO] - from play in play-internal-execution-context-1 
+2014-07-12 18:11:36,035 - [INFO] - from play in play-internal-execution-context-1 
 Shutdown application default Akka system.
 
-2014-07-11 17:41:29,423 - [INFO] - from play in play-internal-execution-context-1 
+2014-07-12 18:11:36,087 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2014-07-11 17:41:29,433 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
+2014-07-12 18:11:36,098 - [INFO] - from play in play-akka.actor.default-dispatcher-7 
 Starting application default Akka system.
-
-2014-07-11 17:41:29,438 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#-760962754] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:29,442 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$a/$a#-534401093] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:29,444 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$a/$a/$a#-1493039363] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:30,445 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About CoordinatorActor ToUpperResponse: Actor[akka://application/user/fault_complex/$a/$a#-534401093] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:30,446 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ToFirstCharLowerRequest service: Actor[akka://application/user/fault_complex/$a/$a/$b#1279931852] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:31,447 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/fault_complex/$a/$a#-534401093] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:37,331 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#-760962754] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:37,332 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$b/$a#1283600469] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:37,332 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$b/$a/$a#1297301413] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:38,332 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About CoordinatorActor ToUpperResponse: Actor[akka://application/user/fault_complex/$b/$a#1283600469] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:38,333 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ToFirstCharLowerRequest service: Actor[akka://application/user/fault_complex/$b/$a/$b#-58034626] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:39,334 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/fault_complex/$b/$a#1283600469] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:43,326 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#-760962754] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:43,327 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$c/$a#1994030170] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:43,327 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$c/$a/$a#1101325988] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:44,328 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperResponse: Actor[akka://application/user/fault_complex/$c/$a#1994030170] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:44,329 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ToFirstCharLowerRequest service: Actor[akka://application/user/fault_complex/$c/$a/$b#2050615905] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:45,329 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/fault_complex/$c/$a#1994030170] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:49,061 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#-760962754] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:49,062 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$d/$a#-1955933116] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:49,063 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$d/$a/$a#-781983275] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:50,063 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperResponse: Actor[akka://application/user/fault_complex/$d/$a#-1955933116] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:50,064 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ToFirstCharLowerRequest service: Actor[akka://application/user/fault_complex/$d/$a/$b#2082389032] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:51,064 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/fault_complex/$d/$a#-1955933116] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:53,373 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#-760962754] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:53,374 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$e/$a#824125271] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:53,374 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$e/$a/$a#-1393014819] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:41:53,374 - [INFO] - from application in application-akka.actor.default-dispatcher-5 
-Lets retry our work by escalating!
-
-2014-07-11 17:41:53,374 - [INFO] - from application in application-akka.actor.default-dispatcher-5 
-Lets retry our work!
-
-2014-07-11 17:41:53,374 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$e/$b#-1480158265] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:41:53,375 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$e/$b/$a#1086075069] Thread: application-akka.actor.default-dispatcher-7
-
-2014-07-11 17:41:54,376 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
-About CoordinatorActor ToUpperResponse: Actor[akka://application/user/fault_complex/$e/$b#-1480158265] Thread: application-akka.actor.default-dispatcher-4
-
-2014-07-11 17:41:54,376 - [DEBUG] - from application in application-akka.actor.default-dispatcher-7 
-About ToFirstCharLowerRequest service: Actor[akka://application/user/fault_complex/$e/$b/$b#-251318714] Thread: application-akka.actor.default-dispatcher-7
-
-2014-07-11 17:41:55,377 - [DEBUG] - from application in application-akka.actor.default-dispatcher-4 
-About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/fault_complex/$e/$b#-1480158265] Thread: application-akka.actor.default-dispatcher-4
-
-2014-07-11 17:41:58,390 - [ERROR] - from play in play-akka.actor.default-dispatcher-4 
-Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#-760962754]] after [5000 ms]
-
-2014-07-11 17:41:58,392 - [ERROR] - from application in play-akka.actor.default-dispatcher-4 
-
-
-! @6iodp4ocg - Internal server error, for (GET) [/FaultTolerantComplexServiceActor] ->
-
-play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#-760962754]] after [5000 ms]]]
-	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
-	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
-	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.1.jar:2.3.1]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
-	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.1.jar:2.3.1]
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.3.1.jar:2.3.1]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.3.jar:na]
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.3.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
-Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#-760962754]] after [5000 ms]
-	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
-	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
-	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
-
-2014-07-11 17:43:43,390 - [INFO] - from play in play-internal-execution-context-1 
-Shutdown application default Akka system.
-
-2014-07-11 17:43:43,426 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2014-07-11 17:43:43,439 - [INFO] - from play in play-akka.actor.default-dispatcher-3 
-Starting application default Akka system.
-
-2014-07-11 17:43:43,444 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#-776011297] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:43:43,447 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$a/$a#-156104637] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:43:43,449 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$a/$a/$a#430525583] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:43:44,450 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperResponse: Actor[akka://application/user/fault_complex/$a/$a#-156104637] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:43:44,450 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ToFirstCharLowerRequest service: Actor[akka://application/user/fault_complex/$a/$a/$b#-733956508] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:43:45,452 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/fault_complex/$a/$a#-156104637] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:43:52,025 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#-776011297] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:43:52,026 - [DEBUG] - from application in application-akka.actor.default-dispatcher-5 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$b/$a#1580910933] Thread: application-akka.actor.default-dispatcher-5
-
-2014-07-11 17:43:52,026 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$b/$a/$a#-2036495497] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:43:57,036 - [ERROR] - from play in play-akka.actor.default-dispatcher-10 
-Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#-776011297]] after [5000 ms]
-
-2014-07-11 17:43:57,037 - [ERROR] - from application in play-akka.actor.default-dispatcher-10 
-
-
-! @6iodpbhpo - Internal server error, for (GET) [/FaultTolerantComplexServiceActor] ->
-
-play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#-776011297]] after [5000 ms]]]
-	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
-	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
-	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.1.jar:2.3.1]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
-	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.1.jar:2.3.1]
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.3.1.jar:2.3.1]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.3.jar:na]
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.3.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
-Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#-776011297]] after [5000 ms]
-	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
-	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
-	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
-
-2014-07-11 17:47:29,197 - [INFO] - from play in play-internal-execution-context-1 
-Shutdown application default Akka system.
-
-2014-07-11 17:47:29,225 - [INFO] - from play in play-internal-execution-context-1 
-Application started (Dev)
-
-2014-07-11 17:47:29,234 - [INFO] - from play in play-akka.actor.default-dispatcher-3 
-Starting application default Akka system.
-
-2014-07-11 17:47:29,240 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#477658031] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:47:29,244 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$a/$a#-1928270294] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:47:29,246 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$a/$a/$a#-1677861518] Thread: application-akka.actor.default-dispatcher-8
-
-2014-07-11 17:47:30,248 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperResponse: Actor[akka://application/user/fault_complex/$a/$a#-1928270294] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:47:30,248 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
-About ToFirstCharLowerRequest service: Actor[akka://application/user/fault_complex/$a/$a/$b#-1768687274] Thread: application-akka.actor.default-dispatcher-8
-
-2014-07-11 17:47:31,249 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToFirstCharLowerResponse: Actor[akka://application/user/fault_complex/$a/$a#-1928270294] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:47:34,714 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About ComplexServiceActor ToUpperRequest: Actor[akka://application/user/fault_complex#477658031] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:47:34,714 - [DEBUG] - from application in application-akka.actor.default-dispatcher-2 
-About CoordinatorActor ToUpperRequest: Actor[akka://application/user/fault_complex/$b/$a#-155788191] Thread: application-akka.actor.default-dispatcher-2
-
-2014-07-11 17:47:34,715 - [DEBUG] - from application in application-akka.actor.default-dispatcher-8 
-About ToUpperRequest service: Actor[akka://application/user/fault_complex/$b/$a/$a#2112664186] Thread: application-akka.actor.default-dispatcher-8
-
-2014-07-11 17:47:39,731 - [ERROR] - from play in play-akka.actor.default-dispatcher-11 
-Cannot invoke the action, eventually got an error: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#477658031]] after [5000 ms]
-
-2014-07-11 17:47:39,733 - [ERROR] - from application in play-akka.actor.default-dispatcher-11 
-
-
-! @6iodpo9b3 - Internal server error, for (GET) [/FaultTolerantComplexServiceActor] ->
-
-play.api.Application$$anon$1: Execution exception[[AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#477658031]] after [5000 ms]]]
-	at play.api.Application$class.handleError(Application.scala:296) ~[play_2.11-2.3.1.jar:2.3.1]
-	at play.api.DefaultApplication.handleError(Application.scala:402) [play_2.11-2.3.1.jar:2.3.1]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3$$anonfun$applyOrElse$4.apply(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
-	at scala.Option.map(Option.scala:145) [scala-library-2.11.1.jar:na]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:320) [play_2.11-2.3.1.jar:2.3.1]
-	at play.core.server.netty.PlayDefaultUpstreamHandler$$anonfun$3.applyOrElse(PlayDefaultUpstreamHandler.scala:316) [play_2.11-2.3.1.jar:2.3.1]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:344) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$recoverWith$1.apply(Future.scala:343) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
-	at play.api.libs.iteratee.Execution$trampoline$.execute(Execution.scala:46) [play-iteratees_2.11-2.3.1.jar:2.3.1]
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:40) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:248) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Promise$class.complete(Promise.scala:55) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:153) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$$anonfun$map$1.apply(Future.scala:235) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:32) [scala-library-2.11.1.jar:na]
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:40) [play_2.11-2.3.1.jar:2.3.1]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41) [akka-actor_2.11-2.3.3.jar:na]
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(AbstractDispatcher.scala:393) [akka-actor_2.11-2.3.3.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) [scala-library-2.11.1.jar:na]
-	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) [scala-library-2.11.1.jar:na]
-Caused by: akka.pattern.AskTimeoutException: Ask timed out on [Actor[akka://application/user/fault_complex#477658031]] after [5000 ms]
-	at akka.pattern.PromiseActorRef$$anonfun$1.apply$mcV$sp(AskSupport.scala:333) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.Scheduler$$anon$7.run(Scheduler.scala:117) ~[akka-actor_2.11-2.3.3.jar:na]
-	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:599) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.BatchingExecutor$class.execute(BatchingExecutor.scala:109) ~[scala-library-2.11.1.jar:na]
-	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:597) ~[scala-library-2.11.1.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$TaskHolder.executeTask(Scheduler.scala:467) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.executeBucket$1(Scheduler.scala:419) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.nextTick(Scheduler.scala:423) ~[akka-actor_2.11-2.3.3.jar:na]
-	at akka.actor.LightArrayRevolverScheduler$$anon$8.run(Scheduler.scala:375) ~[akka-actor_2.11-2.3.3.jar:na]
-	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_05]
 

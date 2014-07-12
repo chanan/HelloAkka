@@ -7,10 +7,45 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140711163642"/>
+		date="20140712105810"/>
 	<dependencies>
+		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
+			<revision name="2.0.2" status="release" pubdate="20140505203959" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="58">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4523" time="0" location="/Users/ubrauch/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/2.0.2/cassandra-driver-core-2.0.2.pom"/>
+				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cassandra-driver-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="293064" time="0" location="/Users/ubrauch/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/srcs/cassandra-driver-core-2.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/2.0.2/cassandra-driver-core-2.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="cassandra-driver-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="834313" time="0" location="/Users/ubrauch/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/docs/cassandra-driver-core-2.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/2.0.2/cassandra-driver-core-2.0.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="cassandra-driver-core" type="jar" ext="jar" status="no" details="" size="529204" time="0" location="/Users/ubrauch/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/jars/cassandra-driver-core-2.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/2.0.2/cassandra-driver-core-2.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.codahale.metrics" name="metrics-core">
+			<revision name="3.0.2" status="release" pubdate="20140216193139" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="59">
+				<metadata-artifact status="no" details="" size="3075" time="0" location="/Users/ubrauch/.ivy2/cache/com.codahale.metrics/metrics-core/ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.pom"/>
+				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="metrics-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="258426" time="0" location="/Users/ubrauch/.ivy2/cache/com.codahale.metrics/metrics-core/docs/metrics-core-3.0.2-javadoc.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="metrics-core" type="jar" ext="jar" status="no" details="" size="85448" time="0" location="/Users/ubrauch/.ivy2/cache/com.codahale.metrics/metrics-core/jars/metrics-core-3.0.2.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.jar"/>
+					</artifact>
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43567" time="0" location="/Users/ubrauch/.ivy2/cache/com.codahale.metrics/metrics-core/srcs/metrics-core-3.0.2-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="com.typesafe.play" name="play-java-ws_2.11">
-			<revision name="2.3.1" status="release" pubdate="20140627011622" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="58">
+			<revision name="2.3.1" status="release" pubdate="20140627011622" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="50">
 				<metadata-artifact status="no" details="" size="3996" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-java-ws_2.11/2.3.1/play-java-ws_2.11-2.3.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -24,7 +59,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-ws_2.11">
-			<revision name="2.3.1" status="release" pubdate="20140627011624" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="59">
+			<revision name="2.3.1" status="release" pubdate="20140627011624" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="51">
 				<metadata-artifact status="no" details="" size="3816" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-ws_2.11/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-ws_2.11/2.3.1/play-ws_2.11-2.3.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -38,7 +73,7 @@
 			</revision>
 		</module>
 		<module organisation="oauth.signpost" name="signpost-commonshttp4">
-			<revision name="1.2.1.2" status="release" pubdate="20120226031621" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="62">
+			<revision name="1.2.1.2" status="release" pubdate="20120226031621" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="54">
 				<metadata-artifact status="no" details="" size="3798" time="0" location="/Users/ubrauch/.ivy2/cache/oauth.signpost/signpost-commonshttp4/ivy-1.2.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/oauth/signpost/signpost-commonshttp4/1.2.1.2/signpost-commonshttp4-1.2.1.2.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.2.1.2" rev-constraint-default="1.2.1.2" rev-constraint-dynamic="1.2.1.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -55,7 +90,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpclient">
-			<revision name="4.0.1" status="release" pubdate="20091209142018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="64">
+			<revision name="4.0.1" status="release" pubdate="20091209142018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="56">
 				<license name="Apache License" url="../LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="5028" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.0-SNAPSHOT"/>
@@ -70,7 +105,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpcore">
-			<revision name="4.0.1" status="release" pubdate="20090621070836" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="63">
+			<revision name="4.0.1" status="release" pubdate="20090621070836" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="55">
 				<license name="Apache License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="4328" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="1.0-SNAPSHOT"/>
@@ -85,7 +120,7 @@
 			</revision>
 		</module>
 		<module organisation="oauth.signpost" name="signpost-core">
-			<revision name="1.2.1.2" status="release" pubdate="20120226031606" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="61">
+			<revision name="1.2.1.2" status="release" pubdate="20120226031606" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="53">
 				<metadata-artifact status="no" details="" size="3140" time="0" location="/Users/ubrauch/.ivy2/cache/oauth.signpost/signpost-core/ivy-1.2.1.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/oauth/signpost/signpost-core/1.2.1.2/signpost-core-1.2.1.2.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.2.1.2" rev-constraint-default="1.2.1.2" rev-constraint-dynamic="1.2.1.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -102,7 +137,7 @@
 			</revision>
 		</module>
 		<module organisation="com.ning" name="async-http-client">
-			<revision name="1.8.8" status="release" pubdate="20140428051702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/AsyncHttpClient/async-http-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="60">
+			<revision name="1.8.8" status="release" pubdate="20140428051702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/AsyncHttpClient/async-http-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="52">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="4958" time="0" location="/Users/ubrauch/.ivy2/cache/com.ning/async-http-client/ivy-1.8.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/ning/async-http-client/1.8.8/async-http-client-1.8.8.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="1.0-SNAPSHOT"/>
@@ -120,7 +155,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-cache_2.11">
-			<revision name="2.3.1" status="release" pubdate="20140627011619" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="56">
+			<revision name="2.3.1" status="release" pubdate="20140627011619" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="48">
 				<metadata-artifact status="no" details="" size="3287" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-cache_2.11/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-cache_2.11/2.3.1/play-cache_2.11-2.3.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -134,7 +169,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sf.ehcache" name="ehcache-core">
-			<revision name="2.6.8" status="release" pubdate="20140124185214" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ehcache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="57">
+			<revision name="2.6.8" status="release" pubdate="20140124185214" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ehcache.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="49">
 				<license name="The Apache Software License, Version 2.0" url="src/assemble/EHCACHE-CORE-LICENSE.txt"/>
 				<metadata-artifact status="no" details="" size="5202" time="0" location="/Users/ubrauch/.ivy2/cache/net.sf.ehcache/ehcache-core/ivy-2.6.8.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sf/ehcache/ehcache-core/2.6.8/ehcache-core-2.6.8.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.6.8" rev-constraint-default="2.6.8" rev-constraint-dynamic="2.6.8" callerrev="1.0-SNAPSHOT"/>
@@ -147,134 +182,6 @@
 					</artifact>
 					<artifact name="ehcache-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1008654" time="0" location="/Users/ubrauch/.ivy2/cache/net.sf.ehcache/ehcache-core/srcs/ehcache-core-2.6.8-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/net/sf/ehcache/ehcache-core/2.6.8/ehcache-core-2.6.8-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.typesafe.play" name="play-java-ebean_2.11">
-			<revision name="2.3.1" status="release" pubdate="20140627011605" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="52">
-				<metadata-artifact status="no" details="" size="3297" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-java-ebean_2.11/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-java-ebean_2.11/2.3.1/play-java-ebean_2.11-2.3.1.pom"/>
-				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="play-java-ebean_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8338" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-java-ebean_2.11/srcs/play-java-ebean_2.11-2.3.1-sources.jar">
-						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-java-ebean_2.11/2.3.1/play-java-ebean_2.11-2.3.1-sources.jar"/>
-					</artifact>
-					<artifact name="play-java-ebean_2.11" type="jar" ext="jar" status="no" details="" size="12724" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-java-ebean_2.11/jars/play-java-ebean_2.11-2.3.1.jar">
-						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-java-ebean_2.11/2.3.1/play-java-ebean_2.11-2.3.1.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.hibernate.javax.persistence" name="hibernate-jpa-2.0-api">
-			<revision name="1.0.1.Final" status="release" pubdate="20110614224226" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hibernate.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="55">
-				<license name="Unknown License" url="license.txt"/>
-				<metadata-artifact status="no" details="" size="2396" time="0" location="/Users/ubrauch/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/ivy-1.0.1.Final.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.pom"/>
-				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.0.1.Final" rev-constraint-default="1.0.1.Final" rev-constraint-dynamic="1.0.1.Final" callerrev="1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="hibernate-jpa-2.0-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="194469" time="0" location="/Users/ubrauch/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/srcs/hibernate-jpa-2.0-api-1.0.1.Final-sources.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final-sources.jar"/>
-					</artifact>
-					<artifact name="hibernate-jpa-2.0-api" type="jar" ext="jar" status="no" details="" size="102661" time="0" location="/Users/ubrauch/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.0-api/jars/hibernate-jpa-2.0-api-1.0.1.Final.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.avaje.ebeanorm" name="avaje-ebeanorm">
-			<revision name="3.3.4" status="release" pubdate="20140522040431" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.avaje.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="53">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="4453" time="0" location="/Users/ubrauch/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/ivy-3.3.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/3.3.4/avaje-ebeanorm-3.3.4.pom"/>
-				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="3.3.4" rev-constraint-default="3.3.4" rev-constraint-dynamic="3.3.4" callerrev="1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="avaje-ebeanorm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1079224" time="0" location="/Users/ubrauch/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/srcs/avaje-ebeanorm-3.3.4-sources.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/3.3.4/avaje-ebeanorm-3.3.4-sources.jar"/>
-					</artifact>
-					<artifact name="avaje-ebeanorm" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5181261" time="0" location="/Users/ubrauch/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/docs/avaje-ebeanorm-3.3.4-javadoc.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/3.3.4/avaje-ebeanorm-3.3.4-javadoc.jar"/>
-					</artifact>
-					<artifact name="avaje-ebeanorm" type="jar" ext="jar" status="no" details="" size="1590523" time="0" location="/Users/ubrauch/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-3.3.4.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm/3.3.4/avaje-ebeanorm-3.3.4.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.avaje.ebeanorm" name="avaje-ebeanorm-agent">
-			<revision name="3.2.2" status="release" pubdate="20130801200538" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.avaje.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="54">
-				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="no" details="" size="2621" time="0" location="/Users/ubrauch/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/ivy-3.2.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.2/avaje-ebeanorm-agent-3.2.2.pom"/>
-				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="3.2.2" rev-constraint-default="3.2.2" rev-constraint-dynamic="3.2.2" callerrev="1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="avaje-ebeanorm-agent" type="jar" ext="jar" status="no" details="" size="182176" time="0" location="/Users/ubrauch/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-3.2.2.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.2/avaje-ebeanorm-agent-3.2.2.jar"/>
-					</artifact>
-					<artifact name="avaje-ebeanorm-agent" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="187555" time="0" location="/Users/ubrauch/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/srcs/avaje-ebeanorm-agent-3.2.2-sources.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.2/avaje-ebeanorm-agent-3.2.2-sources.jar"/>
-					</artifact>
-					<artifact name="avaje-ebeanorm-agent" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="499966" time="0" location="/Users/ubrauch/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/docs/avaje-ebeanorm-agent-3.2.2-javadoc.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/3.2.2/avaje-ebeanorm-agent-3.2.2-javadoc.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.typesafe.play" name="play-java-jdbc_2.11">
-			<revision name="2.3.1" status="release" pubdate="20140627011552" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="48">
-				<metadata-artifact status="no" details="" size="2710" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-java-jdbc_2.11/2.3.1/play-java-jdbc_2.11-2.3.1.pom"/>
-				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="play-java-jdbc_2.11" type="jar" ext="jar" status="no" details="" size="1142" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.3.1.jar">
-						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-java-jdbc_2.11/2.3.1/play-java-jdbc_2.11-2.3.1.jar"/>
-					</artifact>
-					<artifact name="play-java-jdbc_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1367" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/srcs/play-java-jdbc_2.11-2.3.1-sources.jar">
-						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-java-jdbc_2.11/2.3.1/play-java-jdbc_2.11-2.3.1-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.typesafe.play" name="play-jdbc_2.11">
-			<revision name="2.3.1" status="release" pubdate="20140627011555" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="49">
-				<metadata-artifact status="no" details="" size="3652" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/ivy-2.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-jdbc_2.11/2.3.1/play-jdbc_2.11-2.3.1.pom"/>
-				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="play-jdbc_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12745" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/srcs/play-jdbc_2.11-2.3.1-sources.jar">
-						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-jdbc_2.11/2.3.1/play-jdbc_2.11-2.3.1-sources.jar"/>
-					</artifact>
-					<artifact name="play-jdbc_2.11" type="jar" ext="jar" status="no" details="" size="197632" time="0" location="/Users/ubrauch/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.3.1.jar">
-						<origin-location is-local="false" location="http://repo.typesafe.com/typesafe/releases/com/typesafe/play/play-jdbc_2.11/2.3.1/play-jdbc_2.11-2.3.1.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.h2database" name="h2">
-			<revision name="1.3.175" status="release" pubdate="20140118123415" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.h2database.com" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="51">
-				<license name="The H2 License, Version 1.0" url="http://h2database.com/html/license.html"/>
-				<metadata-artifact status="no" details="" size="2337" time="0" location="/Users/ubrauch/.ivy2/cache/com.h2database/h2/ivy-1.3.175.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.175/h2-1.3.175.pom"/>
-				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.3.175" rev-constraint-default="1.3.175" rev-constraint-dynamic="1.3.175" callerrev="1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="h2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1155851" time="0" location="/Users/ubrauch/.ivy2/cache/com.h2database/h2/srcs/h2-1.3.175-sources.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.175/h2-1.3.175-sources.jar"/>
-					</artifact>
-					<artifact name="h2" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3391275" time="0" location="/Users/ubrauch/.ivy2/cache/com.h2database/h2/docs/h2-1.3.175-javadoc.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.175/h2-1.3.175-javadoc.jar"/>
-					</artifact>
-					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="1638306" time="0" location="/Users/ubrauch/.ivy2/cache/com.h2database/h2/jars/h2-1.3.175.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/h2database/h2/1.3.175/h2-1.3.175.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="com.jolbox" name="bonecp">
-			<revision name="0.8.0.RELEASE" status="release" pubdate="20131023074844" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="50">
-				<metadata-artifact status="no" details="" size="4865" time="0" location="/Users/ubrauch/.ivy2/cache/com.jolbox/bonecp/ivy-0.8.0.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.pom"/>
-				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="0.8.0.RELEASE" rev-constraint-default="0.8.0.RELEASE" rev-constraint-dynamic="0.8.0.RELEASE" callerrev="1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="bonecp" type="jar" ext="jar" status="no" details="" size="110600" time="0" location="/Users/ubrauch/.ivy2/cache/com.jolbox/bonecp/jars/bonecp-0.8.0.RELEASE.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE.jar"/>
-					</artifact>
-					<artifact name="bonecp" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="330721" time="0" location="/Users/ubrauch/.ivy2/cache/com.jolbox/bonecp/docs/bonecp-0.8.0.RELEASE-javadoc.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-javadoc.jar"/>
-					</artifact>
-					<artifact name="bonecp" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="101324" time="0" location="/Users/ubrauch/.ivy2/cache/com.jolbox/bonecp/srcs/bonecp-0.8.0.RELEASE-sources.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/jolbox/bonecp/0.8.0.RELEASE/bonecp-0.8.0.RELEASE-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -759,7 +666,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-logging" name="commons-logging">
-			<revision name="1.1.1" status="release" pubdate="20071126152410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="65">
+			<revision name="1.1.1" status="release" pubdate="20071126152410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="57">
 				<metadata-artifact status="no" details="" size="3941" time="0" location="/Users/ubrauch/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>

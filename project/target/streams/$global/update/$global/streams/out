@@ -7225,7 +7225,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1790ms :: artifacts dl 46ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1812ms :: artifacts dl 63ms[0m
 [0m[[0mdebug[0m] [0m	report for default#helloakka-build;0.1-SNAPSHOT compile produced in /Users/ubrauch/java/helloakka/project/target/resolution-cache/reports/default-helloakka-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#helloakka-build;0.1-SNAPSHOT runtime produced in /Users/ubrauch/java/helloakka/project/target/resolution-cache/reports/default-helloakka-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#helloakka-build;0.1-SNAPSHOT test produced in /Users/ubrauch/java/helloakka/project/target/resolution-cache/reports/default-helloakka-build-test.xml[0m
@@ -7239,5 +7239,5 @@
 [0m[[0mdebug[0m] [0m	report for default#helloakka-build;0.1-SNAPSHOT docs produced in /Users/ubrauch/java/helloakka/project/target/resolution-cache/reports/default-helloakka-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#helloakka-build;0.1-SNAPSHOT pom produced in /Users/ubrauch/java/helloakka/project/target/resolution-cache/reports/default-helloakka-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#helloakka-build;0.1-SNAPSHOT scala-tool produced in /Users/ubrauch/java/helloakka/project/target/resolution-cache/reports/default-helloakka-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1790ms resolve - 46ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1812ms resolve - 63ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

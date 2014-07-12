@@ -4,7 +4,7 @@
 		module="helloakka$sources_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20140711163638"
+		publication="20140712105806"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>
@@ -335,9 +335,6 @@
 		</dependency>
 		<dependency org="xalan" name="xalan" rev="2.7.1" transitive="false" conf="default->default(compile)">
 			<artifact name="xalan" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		</dependency>
-		<dependency org="xalan" name="serializer" rev="2.7.1" transitive="false" conf="default->default(compile)">
-			<artifact name="serializer" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" transitive="false" conf="default->default(compile)">
 			<artifact name="commons-collections" type="src" ext="jar" conf="sources" e:classifier="sources"/>

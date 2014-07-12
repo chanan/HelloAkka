@@ -13,5 +13,8 @@ GET     /serviceCallError                               controllers.Application.
 GET     /complexService                                 controllers.Application.complexService()
 GET     /FaultTolerantComplexServiceActor               controllers.Application.FaultTolerantComplexServiceActor()
 
+# Cassandra
+GET     /gradebook/course/:courseId                     controllers.Gradebook.course(courseId)
+
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file                                   controllers.Assets.at(path="/public", file)

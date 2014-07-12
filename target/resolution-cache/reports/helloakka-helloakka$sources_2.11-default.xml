@@ -7,10 +7,10 @@
 		revision="1.0-SNAPSHOT"
 		conf="default"
 		confs="default"
-		date="20140711163638"/>
+		date="20140712105806"/>
 	<dependencies>
 		<module organisation="com.typesafe.sbt" name="sbt-mocha">
-			<revision name="1.0.0" status="release" pubdate="20140529102332" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="132">
+			<revision name="1.0.0" status="release" pubdate="20140529102332" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="131">
 				<metadata-artifact status="no" details="" size="1664" time="0" location="/Users/ubrauch/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-mocha/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
@@ -21,7 +21,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-digest">
-			<revision name="1.0.0" status="release" pubdate="20140528153110" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="131">
+			<revision name="1.0.0" status="release" pubdate="20140528153110" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="130">
 				<metadata-artifact status="no" details="" size="1570" time="0" location="/Users/ubrauch/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-digest/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
@@ -32,7 +32,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-rjs">
-			<revision name="1.0.1" status="release" pubdate="20140528184002" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="130">
+			<revision name="1.0.1" status="release" pubdate="20140528184002" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="129">
 				<metadata-artifact status="no" details="" size="1662" time="0" location="/Users/ubrauch/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-rjs/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.1/ivys/ivy.xml"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
@@ -43,7 +43,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-jshint">
-			<revision name="1.0.0" status="release" pubdate="20140528160213" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="129">
+			<revision name="1.0.0" status="release" pubdate="20140528160213" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="128">
 				<metadata-artifact status="no" details="" size="1676" time="0" location="/Users/ubrauch/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-jshint/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
@@ -54,7 +54,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-less">
-			<revision name="1.0.0" status="release" pubdate="20140528160747" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="128">
+			<revision name="1.0.0" status="release" pubdate="20140528160747" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="127">
 				<metadata-artifact status="no" details="" size="1861" time="0" location="/Users/ubrauch/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-less/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
@@ -65,7 +65,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.sbt" name="sbt-coffeescript">
-			<revision name="1.0.0" status="release" pubdate="20140528152306" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="127">
+			<revision name="1.0.0" status="release" pubdate="20140528152306" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="126">
 				<metadata-artifact status="no" details="" size="1804" time="0" location="/Users/ubrauch/.ivy2/cache/scala_2.10/sbt_0.13/com.typesafe.sbt/sbt-coffeescript/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
@@ -145,7 +145,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-websocket">
-			<revision name="8.1.14.v20131031" status="release" pubdate="20131031114328" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="123">
+			<revision name="8.1.14.v20131031" status="release" pubdate="20131031114328" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="122">
 				<metadata-artifact status="no" details="" size="4875" time="0" location="/Users/ubrauch/.ivy2/cache/org.eclipse.jetty/jetty-websocket/ivy-8.1.14.v20131031.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-websocket/8.1.14.v20131031/jetty-websocket-8.1.14.v20131031.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="8.1.14.v20131031" rev-constraint-default="8.1.14.v20131031" rev-constraint-dynamic="8.1.14.v20131031" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -156,7 +156,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-http">
-			<revision name="8.1.14.v20131031" status="release" pubdate="20131031113713" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="126">
+			<revision name="8.1.14.v20131031" status="release" pubdate="20131031113713" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="125">
 				<metadata-artifact status="no" details="" size="4242" time="0" location="/Users/ubrauch/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-8.1.14.v20131031.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.14.v20131031/jetty-http-8.1.14.v20131031.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="8.1.14.v20131031" rev-constraint-default="8.1.14.v20131031" rev-constraint-dynamic="8.1.14.v20131031" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -167,7 +167,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-io">
-			<revision name="8.1.14.v20131031" status="release" pubdate="20131031113655" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="125">
+			<revision name="8.1.14.v20131031" status="release" pubdate="20131031113655" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="124">
 				<metadata-artifact status="no" details="" size="4106" time="0" location="/Users/ubrauch/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-8.1.14.v20131031.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.14.v20131031/jetty-io-8.1.14.v20131031.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="8.1.14.v20131031" rev-constraint-default="8.1.14.v20131031" rev-constraint-dynamic="8.1.14.v20131031" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -178,7 +178,7 @@
 			</revision>
 		</module>
 		<module organisation="org.eclipse.jetty" name="jetty-util">
-			<revision name="8.1.14.v20131031" status="release" pubdate="20131031113557" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="124">
+			<revision name="8.1.14.v20131031" status="release" pubdate="20131031113557" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.eclipse.org/jetty" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="123">
 				<metadata-artifact status="no" details="" size="4414" time="0" location="/Users/ubrauch/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-8.1.14.v20131031.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.14.v20131031/jetty-util-8.1.14.v20131031.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="8.1.14.v20131031" rev-constraint-default="8.1.14.v20131031" rev-constraint-dynamic="8.1.14.v20131031" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -189,7 +189,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sourceforge.cssparser" name="cssparser">
-			<revision name="0.9.13" status="release" pubdate="20140120141807" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cssparser.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="120">
+			<revision name="0.9.13" status="release" pubdate="20140120141807" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cssparser.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="119">
 				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/lgpl.txt"/>
 				<metadata-artifact status="no" details="" size="2670" time="0" location="/Users/ubrauch/.ivy2/cache/net.sourceforge.cssparser/cssparser/ivy-0.9.13.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sourceforge/cssparser/cssparser/0.9.13/cssparser-0.9.13.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="0.9.13" rev-constraint-default="0.9.13" rev-constraint-dynamic="0.9.13" callerrev="1.0-SNAPSHOT"/>
@@ -201,7 +201,7 @@
 			</revision>
 		</module>
 		<module organisation="org.w3c.css" name="sac">
-			<revision name="1.3" status="release" pubdate="20080323004250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.w3.org/Style/CSS/SAC/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="121">
+			<revision name="1.3" status="release" pubdate="20080323004250" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.w3.org/Style/CSS/SAC/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="120">
 				<license name="The W3C Software License" url="http://www.w3.org/Consortium/Legal/copyright-software-19980720"/>
 				<metadata-artifact status="no" details="" size="2385" time="0" location="/Users/ubrauch/.ivy2/cache/org.w3c.css/sac/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/w3c/css/sac/1.3/sac-1.3.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.0-SNAPSHOT"/>
@@ -213,7 +213,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sourceforge.nekohtml" name="nekohtml">
-			<revision name="1.9.20" status="release" pubdate="20140213092117" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nekohtml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="119">
+			<revision name="1.9.20" status="release" pubdate="20140213092117" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://nekohtml.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="118">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2562" time="0" location="/Users/ubrauch/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/ivy-1.9.20.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sourceforge/nekohtml/nekohtml/1.9.20/nekohtml-1.9.20.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.9.20" rev-constraint-default="1.9.20" rev-constraint-dynamic="1.9.20" callerrev="1.0-SNAPSHOT"/>
@@ -225,7 +225,7 @@
 			</revision>
 		</module>
 		<module organisation="xerces" name="xercesImpl">
-			<revision name="2.11.0" status="release" pubdate="20130220152006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="117">
+			<revision name="2.11.0" status="release" pubdate="20130220152006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://xerces.apache.org/xerces2-j/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="116">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4260" time="0" location="/Users/ubrauch/.ivy2/cache/xerces/xercesImpl/ivy-2.11.0.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="2.11.0" rev-constraint-default="2.11.0" rev-constraint-dynamic="2.11.0" callerrev="1.0-SNAPSHOT"/>
@@ -237,7 +237,7 @@
 			</revision>
 		</module>
 		<module organisation="xml-apis" name="xml-apis">
-			<revision name="1.4.01" status="release" pubdate="20110819201111" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="118">
+			<revision name="1.4.01" status="release" pubdate="20110819201111" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/commons/components/external/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="117">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<license name="The SAX License" url="http://www.saxproject.org/copying.html"/>
 				<license name="The W3C License" url="http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip"/>
@@ -251,7 +251,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sourceforge.htmlunit" name="htmlunit-core-js">
-			<revision name="2.14" status="release" pubdate="20140217013438" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="116">
+			<revision name="2.14" status="release" pubdate="20140217013438" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://htmlunit.sourceforge.net" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="115">
 				<license name="Mozilla Public License version 2.0" url="http://www.mozilla.org/MPL/2.0/"/>
 				<metadata-artifact status="no" details="" size="2513" time="0" location="/Users/ubrauch/.ivy2/cache/net.sourceforge.htmlunit/htmlunit-core-js/ivy-2.14.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.14/htmlunit-core-js-2.14.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="2.14" rev-constraint-default="2.14" rev-constraint-dynamic="2.14" callerrev="1.0-SNAPSHOT"/>
@@ -263,7 +263,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.9" status="release" pubdate="20131220225739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="115">
+			<revision name="1.9" status="release" pubdate="20131220225739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="114">
 				<metadata-artifact status="no" details="" size="2666" time="0" location="/Users/ubrauch/.ivy2/cache/commons-codec/commons-codec/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-codec/commons-codec/1.9/commons-codec-1.9.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -274,7 +274,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpmime">
-			<revision name="4.3.2" status="release" pubdate="20140115134450" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="114">
+			<revision name="4.3.2" status="release" pubdate="20140115134450" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="113">
 				<metadata-artifact status="no" details="" size="3573" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.httpcomponents/httpmime/ivy-4.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.2/httpmime-4.3.2.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="4.3.2" rev-constraint-default="4.3.2" rev-constraint-dynamic="4.3.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -285,7 +285,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpclient">
-			<revision name="4.3.2" status="release" pubdate="20140115134359" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="111">
+			<revision name="4.3.2" status="release" pubdate="20140115134359" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="110">
 				<metadata-artifact status="no" details="" size="3942" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.2/httpclient-4.3.2.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="4.3.2" rev-constraint-default="4.3.2" rev-constraint-dynamic="4.3.2" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -296,7 +296,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.httpcomponents" name="httpcore">
-			<revision name="4.3.1" status="release" pubdate="20131218090652" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="112">
+			<revision name="4.3.1" status="release" pubdate="20131218090652" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="111">
 				<metadata-artifact status="no" details="" size="2899" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.3.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="4.3.1" rev-constraint-default="4.3.1" rev-constraint-dynamic="4.3.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -307,7 +307,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-logging" name="commons-logging">
-			<revision name="1.1.3" status="release" pubdate="20130516160523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="113">
+			<revision name="1.1.3" status="release" pubdate="20130516160523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="112">
 				<metadata-artifact status="no" details="" size="2988" time="0" location="/Users/ubrauch/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.3.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="1.1.3" rev-constraint-default="1.1.3" rev-constraint-dynamic="1.1.3" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -318,7 +318,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.commons" name="commons-lang3">
-			<revision name="3.2.1" status="release" pubdate="20140105120213" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="110">
+			<revision name="3.2.1" status="release" pubdate="20140105120213" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="109">
 				<metadata-artifact status="no" details="" size="2805" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.2.1/commons-lang3-3.2.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -329,7 +329,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-collections" name="commons-collections">
-			<revision name="3.2.1" status="release" pubdate="20080414210924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="109">
+			<revision name="3.2.1" status="release" pubdate="20080414210924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="108">
 				<metadata-artifact status="no" details="" size="2468" time="0" location="/Users/ubrauch/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
@@ -347,15 +347,6 @@
 					<artifact name="xalan" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3423100" time="0" location="/Users/ubrauch/.ivy2/cache/xalan/xalan/srcs/xalan-2.7.1-sources.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xalan/xalan/2.7.1/xalan-2.7.1-sources.jar"/>
 					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="xalan" name="serializer">
-			<revision name="2.7.1" status="release" pubdate="20080930040254" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://xml.apache.org/xalan-j/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="108">
-				<metadata-artifact status="no" details="" size="2619" time="0" location="/Users/ubrauch/.ivy2/cache/xalan/serializer/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.pom"/>
-				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="1.0-SNAPSHOT"/>
-				<artifacts>
-					<artifact name="serializer" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
 				</artifacts>
 			</revision>
 		</module>
@@ -638,7 +629,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-io" name="commons-io">
-			<revision name="2.4" status="release" pubdate="20120612182206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="122">
+			<revision name="2.4" status="release" pubdate="20120612182206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="121">
 				<metadata-artifact status="no" details="" size="2519" time="0" location="/Users/ubrauch/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_2.11" conf="default" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>

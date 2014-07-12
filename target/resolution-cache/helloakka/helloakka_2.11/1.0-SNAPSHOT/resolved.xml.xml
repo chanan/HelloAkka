@@ -4,7 +4,7 @@
 		module="helloakka_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20140711164325"
+		publication="20140712180728"
 	>
 		<description>
 		HelloAkka
@@ -39,9 +39,8 @@
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.3.1" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-docs_2.11" rev="2.3.1" conf="docs->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java_2.11" rev="2.3.1" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-java-jdbc_2.11" rev="2.3.1" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-java-ebean_2.11" rev="2.3.1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.3.1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-ws_2.11" rev="2.3.1" conf="compile->default(compile)"/>
+		<dependency org="com.datastax.cassandra" name="cassandra-driver-core" rev="2.0.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

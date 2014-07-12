@@ -4,7 +4,7 @@
 		module="helloakka$sbt_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20140711163635"
+		publication="20140712105805"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
