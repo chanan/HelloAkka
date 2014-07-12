@@ -4,7 +4,7 @@
 		module="helloakka_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20140708151239"
+		publication="20140711164325"
 	>
 		<description>
 		HelloAkka

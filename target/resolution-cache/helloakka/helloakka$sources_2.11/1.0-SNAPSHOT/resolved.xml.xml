@@ -4,7 +4,7 @@
 		module="helloakka$sources_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20140708145948"
+		publication="20140711163638"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

@@ -6,7 +6,7 @@
 [debug] == resolving dependencies for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT [compile]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b419ddc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70504a73
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.11.1
 [debug] 	found org.scala-lang#scala-library;2.11.1 in sbt-chain
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.0.2 [compile->default(compile)]
 [info] Resolving com.typesafe.play#twirl-api_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@592a5296
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c5202b8
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#twirl-api_2.11;1.0.2
 [debug] 	local: revision in cache: com.typesafe.play#twirl-api_2.11;1.0.2
 [debug] 	found com.typesafe.play#twirl-api_2.11;1.0.2 in sbt-chain
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#twirl-api_2.11;1.0.2 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ebe4814
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@75e57ae0
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	local: revision in cache: org.apache.commons#commons-lang3;3.1
 [debug] 	found org.apache.commons#commons-lang3;3.1 in sbt-chain
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-lang3;3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7074c91e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d0e39e6
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49ba4c02
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51a3df98
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play_2.11;2.3.1
 [debug] 	found com.typesafe.play#play_2.11;2.3.1 in sbt-chain
@@ -52,7 +52,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#build-link;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#build-link;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5899a269
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10e3c6a3
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#build-link;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#build-link;2.3.1
 [debug] 	found com.typesafe.play#build-link;2.3.1 in sbt-chain
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#build-link;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-exceptions;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a6a906f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40dbf4b5
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-exceptions;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-exceptions;2.3.1
 [debug] 	found com.typesafe.play#play-exceptions;2.3.1 in sbt-chain
@@ -70,7 +70,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-exceptions;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.javassist#javassist;3.18.2-GA [compile->default(compile)]
 [info] Resolving org.javassist#javassist;3.18.2-GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57f4bf33
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38d2b21a
 [debug] sbt-chain: module revision found in cache: org.javassist#javassist;3.18.2-GA
 [debug] 	local: revision in cache: org.javassist#javassist;3.18.2-GA
 [debug] 	found org.javassist#javassist;3.18.2-GA in sbt-chain
@@ -79,7 +79,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.javassist#javassist;3.18.2-GA [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-iteratees_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7295bc43
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@158f07f1
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-iteratees_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-iteratees_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-iteratees_2.11;2.3.1 in sbt-chain
@@ -88,7 +88,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-iteratees_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.11;0.7 [compile->default(compile)]
 [info] Resolving org.scala-stm#scala-stm_2.11;0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@76a09298
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45ecab43
 [debug] sbt-chain: module revision found in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	local: revision in cache: org.scala-stm#scala-stm_2.11;0.7
 [debug] 	found org.scala-stm#scala-stm_2.11;0.7 in sbt-chain
@@ -97,7 +97,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-stm#scala-stm_2.11;0.7 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->default(compile)]
 [info] Resolving com.typesafe#config;1.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34a07a9b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69afc0da
 [debug] sbt-chain: module revision found in cache: com.typesafe#config;1.2.1
 [debug] 	local: revision in cache: com.typesafe#config;1.2.1
 [debug] 	found com.typesafe#config;1.2.1 in sbt-chain
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-json_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-json_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30d7c1ba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58242ff4
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-json_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-json_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-json_2.11;2.3.1 in sbt-chain
@@ -115,7 +115,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-json_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-functional_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1fabedfd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d513b99
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-functional_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-functional_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-functional_2.11;2.3.1 in sbt-chain
@@ -124,7 +124,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-functional_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-datacommons_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ebb5921
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a54d24d
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-datacommons_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-datacommons_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-datacommons_2.11;2.3.1 in sbt-chain
@@ -133,7 +133,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-datacommons_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->joda-time#joda-time;2.3 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@651cf5b3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2db18f22
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;2.3
 [debug] 	local: revision in cache: joda-time#joda-time;2.3
 [debug] 	found joda-time#joda-time;2.3 in sbt-chain
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->joda-time#joda-time;2.3 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.joda#joda-convert;1.6 [compile->default(compile)]
 [info] Resolving org.joda#joda-convert;1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@143021c6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2505ef53
 [debug] sbt-chain: module revision found in cache: org.joda#joda-convert;1.6
 [debug] 	local: revision in cache: org.joda#joda-convert;1.6
 [debug] 	found org.joda#joda-convert;1.6 in sbt-chain
@@ -151,7 +151,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.joda#joda-convert;1.6 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-annotations;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@423d19db
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79b465a3
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-annotations;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.3.2 in sbt-chain
@@ -160,7 +160,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-annotations;2.3.2 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-core;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ed4b575
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@434d3d4f
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-core;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.3.2 in sbt-chain
@@ -169,7 +169,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-core;2.3.2 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->default(compile)]
 [info] Resolving com.fasterxml.jackson.core#jackson-databind;2.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@602bd522
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4006c7be
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	local: revision in cache: com.fasterxml.jackson.core#jackson-databind;2.3.2
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.3.2 in sbt-chain
@@ -178,7 +178,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.3.2 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.1 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@325c2d26
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31b4b8fc
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.1
 [debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.11.1
 [debug] 	found org.scala-lang#scala-reflect;2.11.1 in sbt-chain
@@ -188,7 +188,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-reflect;2.11.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e2f9ec4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60b964af
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
@@ -197,7 +197,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->io.netty#netty;3.9.2.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.9.2.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bd86632
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a2548ff
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.9.2.Final
 [debug] 	local: revision in cache: io.netty#netty;3.9.2.Final
 [debug] 	found io.netty#netty;3.9.2.Final in sbt-chain
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->io.netty#netty;3.9.2.Final [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->default(compile)]
 [info] Resolving com.typesafe.netty#netty-http-pipelining;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d724632
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57271b36
 [debug] sbt-chain: module revision found in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	local: revision in cache: com.typesafe.netty#netty-http-pipelining;1.1.2
 [debug] 	found com.typesafe.netty#netty-http-pipelining;1.1.2 in sbt-chain
@@ -215,7 +215,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.netty#netty-http-pipelining;1.1.2 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d906466
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72140bcb
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.6
 [debug] 	local: revision in cache: org.slf4j#slf4j-api;1.7.6
 [debug] 	found org.slf4j#slf4j-api;1.7.6 in sbt-chain
@@ -224,7 +224,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#slf4j-api;1.7.6 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#jul-to-slf4j;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2941c947
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a988f3b
 [debug] sbt-chain: module revision found in cache: org.slf4j#jul-to-slf4j;1.7.6
 [debug] 	local: revision in cache: org.slf4j#jul-to-slf4j;1.7.6
 [debug] 	found org.slf4j#jul-to-slf4j;1.7.6 in sbt-chain
@@ -233,7 +233,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jul-to-slf4j;1.7.6 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.6 [compile->default(compile)]
 [info] Resolving org.slf4j#jcl-over-slf4j;1.7.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fd66f88
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67b0eb57
 [debug] sbt-chain: module revision found in cache: org.slf4j#jcl-over-slf4j;1.7.6
 [debug] 	local: revision in cache: org.slf4j#jcl-over-slf4j;1.7.6
 [debug] 	found org.slf4j#jcl-over-slf4j;1.7.6 in sbt-chain
@@ -242,7 +242,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.slf4j#jcl-over-slf4j;1.7.6 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.1 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-core;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38881bd3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25056bc5
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.1.1
 [debug] 	local: revision in cache: ch.qos.logback#logback-core;1.1.1
 [debug] 	found ch.qos.logback#logback-core;1.1.1 in sbt-chain
@@ -251,7 +251,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-core;1.1.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.1 [compile->default(compile)]
 [info] Resolving ch.qos.logback#logback-classic;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@651f41fd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29165a67
 [debug] sbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.1.1
 [debug] 	local: revision in cache: ch.qos.logback#logback-classic;1.1.1
 [debug] 	found ch.qos.logback#logback-classic;1.1.1 in sbt-chain
@@ -260,7 +260,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->ch.qos.logback#logback-classic;1.1.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.11;2.3.3 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d583f79
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17945ecb
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-actor_2.11;2.3.3
 [debug] 	local: revision in cache: com.typesafe.akka#akka-actor_2.11;2.3.3
 [debug] 	found com.typesafe.akka#akka-actor_2.11;2.3.3 in sbt-chain
@@ -269,7 +269,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-actor_2.11;2.3.3 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.11;2.3.3 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-slf4j_2.11;2.3.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27076fe5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26863b0c
 [debug] sbt-chain: module revision found in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.3
 [debug] 	local: revision in cache: com.typesafe.akka#akka-slf4j_2.11;2.3.3
 [debug] 	found com.typesafe.akka#akka-slf4j_2.11;2.3.3 in sbt-chain
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.akka#akka-slf4j_2.11;2.3.3 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7663a188
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@652520bb
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
 [debug] 	local: revision in cache: commons-codec#commons-codec;1.9
 [debug] 	found commons-codec#commons-codec;1.9 in sbt-chain
@@ -287,7 +287,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->commons-codec#commons-codec;1.9 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->default(compile)]
 [info] Resolving xerces#xercesImpl;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e38a55
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cee4e92
 [debug] sbt-chain: module revision found in cache: xerces#xercesImpl;2.11.0
 [debug] 	local: revision in cache: xerces#xercesImpl;2.11.0
 [debug] 	found xerces#xercesImpl;2.11.0 in sbt-chain
@@ -296,7 +296,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->xerces#xercesImpl;2.11.0 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->default(compile)]
 [info] Resolving xml-apis#xml-apis;1.4.01 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@344ec9c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4403e3a5
 [debug] sbt-chain: module revision found in cache: xml-apis#xml-apis;1.4.01
 [debug] 	local: revision in cache: xml-apis#xml-apis;1.4.01
 [debug] 	found xml-apis#xml-apis;1.4.01 in sbt-chain
@@ -305,7 +305,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->xml-apis#xml-apis;1.4.01 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->default(compile)]
 [info] Resolving javax.transaction#jta;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b6a925c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c8608b9
 [debug] sbt-chain: module revision found in cache: javax.transaction#jta;1.1
 [debug] 	local: revision in cache: javax.transaction#jta;1.1
 [debug] 	found javax.transaction#jta;1.1 in sbt-chain
@@ -314,7 +314,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->javax.transaction#jta;1.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-java_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@457b9183
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d00d189
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-java_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-java_2.11;2.3.1 in sbt-chain
@@ -323,7 +323,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.yaml#snakeyaml;1.13 [compile->default(compile)]
 [info] Resolving org.yaml#snakeyaml;1.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68dc2bbe
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5872ae98
 [debug] sbt-chain: module revision found in cache: org.yaml#snakeyaml;1.13
 [debug] 	local: revision in cache: org.yaml#snakeyaml;1.13
 [debug] 	found org.yaml#snakeyaml;1.13 in sbt-chain
@@ -332,7 +332,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.yaml#snakeyaml;1.13 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-validator;5.0.3.Final [compile->default(compile)]
 [info] Resolving org.hibernate#hibernate-validator;5.0.3.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@324eba57
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f4298a5
 [debug] sbt-chain: module revision found in cache: org.hibernate#hibernate-validator;5.0.3.Final
 [debug] 	local: revision in cache: org.hibernate#hibernate-validator;5.0.3.Final
 [debug] 	found org.hibernate#hibernate-validator;5.0.3.Final in sbt-chain
@@ -341,7 +341,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-validator;5.0.3.Final [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->javax.validation#validation-api;1.1.0.Final [compile->default(compile)]
 [info] Resolving javax.validation#validation-api;1.1.0.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@bde411
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@591d0ad2
 [debug] sbt-chain: module revision found in cache: javax.validation#validation-api;1.1.0.Final
 [debug] 	local: revision in cache: javax.validation#validation-api;1.1.0.Final
 [debug] 	found javax.validation#validation-api;1.1.0.Final in sbt-chain
@@ -350,7 +350,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->javax.validation#validation-api;1.1.0.Final [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss.logging#jboss-logging;3.1.1.GA [compile->default(compile)]
 [info] Resolving org.jboss.logging#jboss-logging;3.1.1.GA ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a1c228c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21bab96e
 [debug] sbt-chain: module revision found in cache: org.jboss.logging#jboss-logging;3.1.1.GA
 [debug] 	local: revision in cache: org.jboss.logging#jboss-logging;3.1.1.GA
 [debug] 	found org.jboss.logging#jboss-logging;3.1.1.GA in sbt-chain
@@ -359,7 +359,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.jboss.logging#jboss-logging;3.1.1.GA [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml#classmate;1.0.0 [compile->default(compile)]
 [info] Resolving com.fasterxml#classmate;1.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33435a77
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d23b070
 [debug] sbt-chain: module revision found in cache: com.fasterxml#classmate;1.0.0
 [debug] 	local: revision in cache: com.fasterxml#classmate;1.0.0
 [debug] 	found com.fasterxml#classmate;1.0.0 in sbt-chain
@@ -368,7 +368,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.fasterxml#classmate;1.0.0 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-context;4.0.3.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-context;4.0.3.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35f5b2c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35425dec
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-context;4.0.3.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-context;4.0.3.RELEASE
 [debug] 	found org.springframework#spring-context;4.0.3.RELEASE in sbt-chain
@@ -377,7 +377,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-context;4.0.3.RELEASE [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.0.3.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-core;4.0.3.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f630e9e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43635780
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-core;4.0.3.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-core;4.0.3.RELEASE
 [debug] 	found org.springframework#spring-core;4.0.3.RELEASE in sbt-chain
@@ -386,7 +386,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-core;4.0.3.RELEASE [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-beans;4.0.3.RELEASE [compile->default(compile)]
 [info] Resolving org.springframework#spring-beans;4.0.3.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e49d3bc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59e0b2fa
 [debug] sbt-chain: module revision found in cache: org.springframework#spring-beans;4.0.3.RELEASE
 [debug] 	local: revision in cache: org.springframework#spring-beans;4.0.3.RELEASE
 [debug] 	found org.springframework#spring-beans;4.0.3.RELEASE in sbt-chain
@@ -395,7 +395,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.springframework#spring-beans;4.0.3.RELEASE [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.reflections#reflections;0.9.8 [compile->default(compile)]
 [info] Resolving org.reflections#reflections;0.9.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@671aeb3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dc7e0e8
 [debug] sbt-chain: module revision found in cache: org.reflections#reflections;0.9.8
 [debug] 	local: revision in cache: org.reflections#reflections;0.9.8
 [debug] 	found org.reflections#reflections;0.9.8 in sbt-chain
@@ -404,7 +404,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.reflections#reflections;0.9.8 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->dom4j#dom4j;1.6.1 [compile->default(compile)]
 [info] Resolving dom4j#dom4j;1.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@94e9177
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d8bce81
 [debug] sbt-chain: module revision found in cache: dom4j#dom4j;1.6.1
 [debug] 	local: revision in cache: dom4j#dom4j;1.6.1
 [debug] 	found dom4j#dom4j;1.6.1 in sbt-chain
@@ -413,7 +413,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->dom4j#dom4j;1.6.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.guava#guava;16.0.1 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;16.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c9e4a20
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d1841f8
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
 [debug] 	local: revision in cache: com.google.guava#guava;16.0.1
 [debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
@@ -422,7 +422,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.guava#guava;16.0.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;2.0.3 [compile->default(compile)]
 [info] Resolving com.google.code.findbugs#jsr305;2.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31899fd8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@257ae572
 [debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	local: revision in cache: com.google.code.findbugs#jsr305;2.0.3
 [debug] 	found com.google.code.findbugs#jsr305;2.0.3 in sbt-chain
@@ -431,7 +431,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.google.code.findbugs#jsr305;2.0.3 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.tomcat#tomcat-servlet-api;8.0.5 [compile->default(compile)]
 [info] Resolving org.apache.tomcat#tomcat-servlet-api;8.0.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1be2ee4f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2936da90
 [debug] sbt-chain: module revision found in cache: org.apache.tomcat#tomcat-servlet-api;8.0.5
 [debug] 	local: revision in cache: org.apache.tomcat#tomcat-servlet-api;8.0.5
 [debug] 	found org.apache.tomcat#tomcat-servlet-api;8.0.5 in sbt-chain
@@ -440,7 +440,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.tomcat#tomcat-servlet-api;8.0.5 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-java-jdbc_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@991e092
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f9d1352
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java-jdbc_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-java-jdbc_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-java-jdbc_2.11;2.3.1 in sbt-chain
@@ -449,7 +449,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jdbc_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-jdbc_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ca79f01
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bafcc2c
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-jdbc_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-jdbc_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-jdbc_2.11;2.3.1 in sbt-chain
@@ -458,7 +458,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-jdbc_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.jolbox#bonecp;0.8.0.RELEASE [compile->default(compile)]
 [info] Resolving com.jolbox#bonecp;0.8.0.RELEASE ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dc24a19
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f7e238e
 [debug] sbt-chain: module revision found in cache: com.jolbox#bonecp;0.8.0.RELEASE
 [debug] 	local: revision in cache: com.jolbox#bonecp;0.8.0.RELEASE
 [debug] 	found com.jolbox#bonecp;0.8.0.RELEASE in sbt-chain
@@ -467,7 +467,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.jolbox#bonecp;0.8.0.RELEASE [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.h2database#h2;1.3.175 [compile->default(compile)]
 [info] Resolving com.h2database#h2;1.3.175 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@27683756
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72a71733
 [debug] sbt-chain: module revision found in cache: com.h2database#h2;1.3.175
 [debug] 	local: revision in cache: com.h2database#h2;1.3.175
 [debug] 	found com.h2database#h2;1.3.175 in sbt-chain
@@ -476,7 +476,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.h2database#h2;1.3.175 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-java-ebean_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ef3f76
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6447898f
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java-ebean_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-java-ebean_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-java-ebean_2.11;2.3.1 in sbt-chain
@@ -485,7 +485,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ebean_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.avaje.ebeanorm#avaje-ebeanorm;3.3.4 [compile->default(compile)]
 [info] Resolving org.avaje.ebeanorm#avaje-ebeanorm;3.3.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d235f2a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@157507d9
 [debug] sbt-chain: module revision found in cache: org.avaje.ebeanorm#avaje-ebeanorm;3.3.4
 [debug] 	local: revision in cache: org.avaje.ebeanorm#avaje-ebeanorm;3.3.4
 [debug] 	found org.avaje.ebeanorm#avaje-ebeanorm;3.3.4 in sbt-chain
@@ -494,7 +494,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.avaje.ebeanorm#avaje-ebeanorm;3.3.4 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.2 [compile->default(compile)]
 [info] Resolving org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b073e42
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a04a2a
 [debug] sbt-chain: module revision found in cache: org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.2
 [debug] 	local: revision in cache: org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.2
 [debug] 	found org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.2 in sbt-chain
@@ -503,7 +503,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.avaje.ebeanorm#avaje-ebeanorm-agent;3.2.2 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->default(compile)]
 [info] Resolving org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a4fffde
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4351786b
 [debug] sbt-chain: module revision found in cache: org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final
 [debug] 	local: revision in cache: org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final
 [debug] 	found org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final in sbt-chain
@@ -512,7 +512,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.hibernate.javax.persistence#hibernate-jpa-2.0-api;1.0.1.Final [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-cache_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63842212
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8cc1102
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-cache_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-cache_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-cache_2.11;2.3.1 in sbt-chain
@@ -521,7 +521,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.8 [compile->default(compile)]
 [info] Resolving net.sf.ehcache#ehcache-core;2.6.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7feb047e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25dae4c8
 [debug] sbt-chain: module revision found in cache: net.sf.ehcache#ehcache-core;2.6.8
 [debug] 	local: revision in cache: net.sf.ehcache#ehcache-core;2.6.8
 [debug] 	found net.sf.ehcache#ehcache-core;2.6.8 in sbt-chain
@@ -530,7 +530,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sf.ehcache#ehcache-core;2.6.8 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-java-ws_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b444074
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3126232b
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-java-ws_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-java-ws_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-java-ws_2.11;2.3.1 in sbt-chain
@@ -539,7 +539,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.3.1 [compile->default(compile)]
 [info] Resolving com.typesafe.play#play-ws_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@798f5c1e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79ebf294
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-ws_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-ws_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-ws_2.11;2.3.1 in sbt-chain
@@ -548,7 +548,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-ws_2.11;2.3.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.8.8 [compile->default(compile)]
 [info] Resolving com.ning#async-http-client;1.8.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10279954
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1381af25
 [debug] sbt-chain: module revision found in cache: com.ning#async-http-client;1.8.8
 [debug] 	local: revision in cache: com.ning#async-http-client;1.8.8
 [debug] 	found com.ning#async-http-client;1.8.8 in sbt-chain
@@ -557,7 +557,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.ning#async-http-client;1.8.8 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-core;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3466386e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@87dc72
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-core;1.2.1.2
 [debug] 	found oauth.signpost#signpost-core;1.2.1.2 in sbt-chain
@@ -566,7 +566,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-core;1.2.1.2 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->default(compile)]
 [info] Resolving oauth.signpost#signpost-commonshttp4;1.2.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f37f217
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@339c98d3
 [debug] sbt-chain: module revision found in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	local: revision in cache: oauth.signpost#signpost-commonshttp4;1.2.1.2
 [debug] 	found oauth.signpost#signpost-commonshttp4;1.2.1.2 in sbt-chain
@@ -575,7 +575,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5512de47
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ea6ad47
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.0.1
 [debug] 	found org.apache.httpcomponents#httpcore;4.0.1 in sbt-chain
@@ -584,7 +584,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.0.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.0.1 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4563b254
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dc834d6
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.0.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.0.1 in sbt-chain
@@ -593,7 +593,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.0.1 [compile->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1826850a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bd660e5
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
@@ -1899,7 +1899,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->oauth.signpost#signpost-commonshttp4;1.2.1.2 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.1 [test->default(compile)]
 [info] Resolving com.typesafe.play#play-test_2.11;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@740227c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@231b0257
 [debug] sbt-chain: module revision found in cache: com.typesafe.play#play-test_2.11;2.3.1
 [debug] 	local: revision in cache: com.typesafe.play#play-test_2.11;2.3.1
 [debug] 	found com.typesafe.play#play-test_2.11;2.3.1 in sbt-chain
@@ -1908,7 +1908,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.3.1 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->junit#junit;4.11 [test->default(compile)]
 [info] Resolving junit#junit;4.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@460132d6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@43be5d17
 [debug] sbt-chain: module revision found in cache: junit#junit;4.11
 [debug] 	local: revision in cache: junit#junit;4.11
 [debug] 	found junit#junit;4.11 in sbt-chain
@@ -1917,7 +1917,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->junit#junit;4.11 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20349e80
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cb52821
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	local: revision in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
@@ -1926,7 +1926,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-core_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-core_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fae7384
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6419033d
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-core_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-core_2.11;2.3.12
 [debug] 	found org.specs2#specs2-core_2.11;2.3.12 in sbt-chain
@@ -1935,7 +1935,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-core_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a67dc5b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e056ac7
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-matcher_2.11;2.3.12
 [debug] 	found org.specs2#specs2-matcher_2.11;2.3.12 in sbt-chain
@@ -1944,7 +1944,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-common_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-common_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d2b9b3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b3671c5
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-common_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-common_2.11;2.3.12
 [debug] 	found org.specs2#specs2-common_2.11;2.3.12 in sbt-chain
@@ -1953,7 +1953,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-common_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.11;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.11;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2d0db0b3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5fc0bc26
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-core_2.11;7.0.6
 [debug] 	found org.scalaz#scalaz-core_2.11;7.0.6 in sbt-chain
@@ -1962,7 +1962,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-core_2.11;7.0.6 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.11;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2087759a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bc11082
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.11;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-concurrent_2.11;7.0.6
 [debug] 	found org.scalaz#scalaz-concurrent_2.11;7.0.6 in sbt-chain
@@ -1971,7 +1971,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.0.6 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.11;7.0.6 [test->default(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.11;7.0.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55a9672b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c9b843c
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.11;7.0.6
 [debug] 	local: revision in cache: org.scalaz#scalaz-effect_2.11;7.0.6
 [debug] 	found org.scalaz#scalaz-effect_2.11;7.0.6 in sbt-chain
@@ -1980,7 +1980,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scalaz#scalaz-effect_2.11;7.0.6 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-junit_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-junit_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f4875cd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@745f0ee5
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-junit_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-junit_2.11;2.3.12
 [debug] 	found org.specs2#specs2-junit_2.11;2.3.12 in sbt-chain
@@ -1989,7 +1989,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-junit_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-mock_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-mock_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fe90245
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77bff66d
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-mock_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-mock_2.11;2.3.12
 [debug] 	found org.specs2#specs2-mock_2.11;2.3.12 in sbt-chain
@@ -1998,7 +1998,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-mock_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.mockito#mockito-core;1.9.5 [test->default(compile)]
 [info] Resolving org.mockito#mockito-core;1.9.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a341611
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5297bebd
 [debug] sbt-chain: module revision found in cache: org.mockito#mockito-core;1.9.5
 [debug] 	local: revision in cache: org.mockito#mockito-core;1.9.5
 [debug] 	found org.mockito#mockito-core;1.9.5 in sbt-chain
@@ -2007,7 +2007,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.mockito#mockito-core;1.9.5 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.objenesis#objenesis;1.0 [test->default(compile)]
 [info] Resolving org.objenesis#objenesis;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@200f478e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c95a8ce
 [debug] sbt-chain: module revision found in cache: org.objenesis#objenesis;1.0
 [debug] 	local: revision in cache: org.objenesis#objenesis;1.0
 [debug] 	found org.objenesis#objenesis;1.0 in sbt-chain
@@ -2016,7 +2016,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.objenesis#objenesis;1.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher-extra_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-matcher-extra_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24769ece
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fe63b60
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-matcher-extra_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-matcher-extra_2.11;2.3.12
 [debug] 	found org.specs2#specs2-matcher-extra_2.11;2.3.12 in sbt-chain
@@ -2025,7 +2025,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-matcher-extra_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-analysis_2.11;2.3.12 [test->default(compile)]
 [info] Resolving org.specs2#specs2-analysis_2.11;2.3.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9d14a9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d344339
 [debug] sbt-chain: module revision found in cache: org.specs2#specs2-analysis_2.11;2.3.12
 [debug] 	local: revision in cache: org.specs2#specs2-analysis_2.11;2.3.12
 [debug] 	found org.specs2#specs2-analysis_2.11;2.3.12 in sbt-chain
@@ -2034,7 +2034,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#specs2-analysis_2.11;2.3.12 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.0 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7235fcce
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@481e5c05
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.0
 [debug] 	local: revision in cache: org.scala-lang#scala-compiler;2.11.0
 [debug] 	found org.scala-lang#scala-compiler;2.11.0 in sbt-chain
@@ -2043,7 +2043,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-compiler;2.11.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#classycle;1.4.3 [test->default(compile)]
 [info] Resolving org.specs2#classycle;1.4.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f68ad51
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6a937170
 [debug] sbt-chain: module revision found in cache: org.specs2#classycle;1.4.3
 [debug] 	local: revision in cache: org.specs2#classycle;1.4.3
 [debug] 	found org.specs2#classycle;1.4.3 in sbt-chain
@@ -2052,7 +2052,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.specs2#classycle;1.4.3 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.novocode#junit-interface;0.11-RC1 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11-RC1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bfd4406
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@342e6460
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11-RC1
 [debug] 	local: revision in cache: com.novocode#junit-interface;0.11-RC1
 [debug] 	found com.novocode#junit-interface;0.11-RC1 in sbt-chain
@@ -2061,7 +2061,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->com.novocode#junit-interface;0.11-RC1 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f58ae24
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b7c82a4
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	local: revision in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
@@ -2070,7 +2070,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-festassert;0.9.2 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-festassert;0.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1627e18f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@489a6bd1
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-festassert;0.9.2
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-festassert;0.9.2
 [debug] 	found org.fluentlenium#fluentlenium-festassert;0.9.2 in sbt-chain
@@ -2079,7 +2079,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-festassert;0.9.2 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.9.2 [test->default(compile)]
 [info] Resolving org.fluentlenium#fluentlenium-core;0.9.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56d68b8d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ce24a64
 [debug] sbt-chain: module revision found in cache: org.fluentlenium#fluentlenium-core;0.9.2
 [debug] 	local: revision in cache: org.fluentlenium#fluentlenium-core;0.9.2
 [debug] 	found org.fluentlenium#fluentlenium-core;0.9.2 in sbt-chain
@@ -2088,7 +2088,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.fluentlenium#fluentlenium-core;0.9.2 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2648543
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@36325538
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-java;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-java;2.39.0 in sbt-chain
@@ -2097,7 +2097,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-java;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-android-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-android-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@764ec632
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2b805296
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-android-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-android-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-android-driver;2.39.0 in sbt-chain
@@ -2106,7 +2106,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-android-driver;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5001b9f5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6be47e65
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-remote-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;2.39.0 in sbt-chain
@@ -2115,7 +2115,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-remote-driver;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->default(compile)]
 [info] Resolving cglib#cglib-nodep;2.1_3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11d6ecc3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a407d55
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3
 [debug] 	local: revision in cache: cglib#cglib-nodep;2.1_3
 [debug] 	found cglib#cglib-nodep;2.1_3 in sbt-chain
@@ -2124,7 +2124,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->cglib#cglib-nodep;2.1_3 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.json#json;20080701 [test->default(compile)]
 [info] Resolving org.json#json;20080701 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@517a6426
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60d6d6d4
 [debug] sbt-chain: module revision found in cache: org.json#json;20080701
 [debug] 	local: revision in cache: org.json#json;20080701
 [debug] 	found org.json#json;20080701 in sbt-chain
@@ -2133,7 +2133,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.json#json;20080701 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c6cb02a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9592216
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-api;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-api;2.39.0 in sbt-chain
@@ -2142,7 +2142,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-api;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.3.1 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6523ff4a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@331a8fa0
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.3.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpclient;4.3.1
 [debug] 	found org.apache.httpcomponents#httpclient;4.3.1 in sbt-chain
@@ -2151,7 +2151,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpclient;4.3.1 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.3 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4aa9b27b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f6b0b29
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.3
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpcore;4.3
 [debug] 	found org.apache.httpcomponents#httpcore;4.3 in sbt-chain
@@ -2160,7 +2160,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpcore;4.3 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.3 [test->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2190419
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14cc51c8
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.3
 [debug] 	local: revision in cache: commons-logging#commons-logging;1.1.3
 [debug] 	found commons-logging#commons-logging;1.1.3 in sbt-chain
@@ -2169,7 +2169,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->commons-logging#commons-logging;1.1.3 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60890e74
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70941f0a
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1
 [debug] 	local: revision in cache: org.apache.commons#commons-exec;1.1
 [debug] 	found org.apache.commons#commons-exec;1.1 in sbt-chain
@@ -2178,7 +2178,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.commons#commons-exec;1.1 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#jna;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7e7727a2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@624c53ab
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#jna;3.4.0
 [debug] 	found net.java.dev.jna#jna;3.4.0 in sbt-chain
@@ -2187,7 +2187,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#jna;3.4.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->default(compile)]
 [info] Resolving net.java.dev.jna#platform;3.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47395a3e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1eab746e
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	local: revision in cache: net.java.dev.jna#platform;3.4.0
 [debug] 	found net.java.dev.jna#platform;3.4.0 in sbt-chain
@@ -2196,7 +2196,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.java.dev.jna#platform;3.4.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e72477e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e257dea
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 in sbt-chain
@@ -2205,7 +2205,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-chrome-driver;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6cbd96dd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f04e583
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 in sbt-chain
@@ -2214,7 +2214,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-htmlunit-driver;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.13 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit;2.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ed9450b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dee05dc
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.13
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit;2.13
 [debug] 	found net.sourceforge.htmlunit#htmlunit;2.13 in sbt-chain
@@ -2223,7 +2223,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit;2.13 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->default(compile)]
 [info] Resolving xalan#xalan;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b41dba
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44c7c82a
 [debug] sbt-chain: module revision found in cache: xalan#xalan;2.7.1
 [debug] 	local: revision in cache: xalan#xalan;2.7.1
 [debug] 	found xalan#xalan;2.7.1 in sbt-chain
@@ -2232,7 +2232,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#xalan;2.7.1 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->default(compile)]
 [info] Resolving xalan#serializer;2.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@425af55f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5a3884c0
 [debug] sbt-chain: module revision found in cache: xalan#serializer;2.7.1
 [debug] 	local: revision in cache: xalan#serializer;2.7.1
 [debug] 	found xalan#serializer;2.7.1 in sbt-chain
@@ -2241,7 +2241,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->xalan#serializer;2.7.1 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->default(compile)]
 [info] Resolving commons-collections#commons-collections;3.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e209b8c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1551131d
 [debug] sbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1
 [debug] 	local: revision in cache: commons-collections#commons-collections;3.2.1
 [debug] 	found commons-collections#commons-collections;3.2.1 in sbt-chain
@@ -2250,7 +2250,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->commons-collections#commons-collections;3.2.1 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.3.1 [test->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5594b7ac
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@393f052
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.3.1
 [debug] 	local: revision in cache: org.apache.httpcomponents#httpmime;4.3.1
 [debug] 	found org.apache.httpcomponents#httpmime;4.3.1 in sbt-chain
@@ -2259,7 +2259,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.httpcomponents#httpmime;4.3.1 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.13 [test->default(compile)]
 [info] Resolving net.sourceforge.htmlunit#htmlunit-core-js;2.13 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1691d225
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5abc4ce7
 [debug] sbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.13
 [debug] 	local: revision in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.13
 [debug] 	found net.sourceforge.htmlunit#htmlunit-core-js;2.13 in sbt-chain
@@ -2268,7 +2268,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.htmlunit#htmlunit-core-js;2.13 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.19 [test->default(compile)]
 [info] Resolving net.sourceforge.nekohtml#nekohtml;1.9.19 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c60659b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73267553
 [debug] sbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.19
 [debug] 	local: revision in cache: net.sourceforge.nekohtml#nekohtml;1.9.19
 [debug] 	found net.sourceforge.nekohtml#nekohtml;1.9.19 in sbt-chain
@@ -2277,7 +2277,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.19 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.11 [test->default(compile)]
 [info] Resolving net.sourceforge.cssparser#cssparser;0.9.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78f14616
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35a21149
 [debug] sbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.11
 [debug] 	local: revision in cache: net.sourceforge.cssparser#cssparser;0.9.11
 [debug] 	found net.sourceforge.cssparser#cssparser;0.9.11 in sbt-chain
@@ -2286,7 +2286,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->net.sourceforge.cssparser#cssparser;0.9.11 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->default(compile)]
 [info] Resolving org.w3c.css#sac;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7901b7cf
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6633e42f
 [debug] sbt-chain: module revision found in cache: org.w3c.css#sac;1.3
 [debug] 	local: revision in cache: org.w3c.css#sac;1.3
 [debug] 	found org.w3c.css#sac;1.3 in sbt-chain
@@ -2295,7 +2295,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.w3c.css#sac;1.3 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->commons-io#commons-io;2.2 [test->default(compile)]
 [info] Resolving commons-io#commons-io;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@185b39e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@216030f9
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.2
 [debug] 	local: revision in cache: commons-io#commons-io;2.2
 [debug] 	found commons-io#commons-io;2.2 in sbt-chain
@@ -2304,7 +2304,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->commons-io#commons-io;2.2 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@571a2c6a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b4bee22
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-websocket;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 in sbt-chain
@@ -2313,7 +2313,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-websocket;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-util;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3df427e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@500a4273
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-util;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-util;8.1.12.v20130726 in sbt-chain
@@ -2322,7 +2322,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-util;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-io;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@342371e7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c8d427c
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-io;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-io;8.1.12.v20130726 in sbt-chain
@@ -2331,7 +2331,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-io;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.12.v20130726 [test->default(compile)]
 [info] Resolving org.eclipse.jetty#jetty-http;8.1.12.v20130726 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20ba6b1b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9f9fec0
 [debug] sbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.12.v20130726
 [debug] 	local: revision in cache: org.eclipse.jetty#jetty-http;8.1.12.v20130726
 [debug] 	found org.eclipse.jetty#jetty-http;8.1.12.v20130726 in sbt-chain
@@ -2340,7 +2340,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.eclipse.jetty#jetty-http;8.1.12.v20130726 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28dfe01c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ed70df9
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 in sbt-chain
@@ -2349,7 +2349,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-firefox-driver;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72a0f2f8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1747c
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-ie-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;2.39.0 in sbt-chain
@@ -2358,7 +2358,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-ie-driver;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19c923c5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6779ad95
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 in sbt-chain
@@ -2367,7 +2367,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-iphone-driver;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@523225c9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c04d881
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-safari-driver;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;2.39.0 in sbt-chain
@@ -2376,7 +2376,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-safari-driver;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->default(compile)]
 [info] Resolving org.webbitserver#webbit;0.4.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8373809
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34c14649
 [debug] sbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14
 [debug] 	local: revision in cache: org.webbitserver#webbit;0.4.14
 [debug] 	found org.webbitserver#webbit;0.4.14 in sbt-chain
@@ -2385,7 +2385,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.webbitserver#webbit;0.4.14 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.39.0 [test->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47326a41
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@67780b07
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.39.0
 [debug] 	local: revision in cache: org.seleniumhq.selenium#selenium-support;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-support;2.39.0 in sbt-chain
@@ -2394,7 +2394,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.seleniumhq.selenium#selenium-support;2.39.0 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.easytesting#fest-assert;1.4 [test->default(compile)]
 [info] Resolving org.easytesting#fest-assert;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4462cf1d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b55226f
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-assert;1.4
 [debug] 	local: revision in cache: org.easytesting#fest-assert;1.4
 [debug] 	found org.easytesting#fest-assert;1.4 in sbt-chain
@@ -2403,7 +2403,7 @@
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.easytesting#fest-assert;1.4 [test->master]
 [debug] == resolving dependencies helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT->org.easytesting#fest-util;1.1.6 [test->default(compile)]
 [info] Resolving org.easytesting#fest-util;1.1.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2737c77b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72df190e
 [debug] sbt-chain: module revision found in cache: org.easytesting#fest-util;1.1.6
 [debug] 	local: revision in cache: org.easytesting#fest-util;1.1.6
 [debug] 	found org.easytesting#fest-util;1.1.6 in sbt-chain
@@ -5654,8 +5654,8 @@
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.3!jsr305.jar
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.3!jsr305.jar(doc)
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;2.0.3!jsr305.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.tomcat#tomcat-servlet-api;8.0.5!tomcat-servlet-api.jar
 [debug] 	[NOT REQUIRED] org.apache.tomcat#tomcat-servlet-api;8.0.5!tomcat-servlet-api.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.tomcat#tomcat-servlet-api;8.0.5!tomcat-servlet-api.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.11;2.3.1!play-java-jdbc_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.11;2.3.1!play-java-jdbc_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.11;2.3.1!play-jdbc_2.11.jar(src)
@@ -5903,24 +5903,24 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(doc)
 [debug] 	[NOT REQUIRED] jline#jline;2.11!jline.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.11!jline.jar(doc)
-[debug] :: resolution report :: resolve 2057ms :: artifacts dl 265ms
+[debug] :: resolution report :: resolve 2413ms :: artifacts dl 235ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	:: xalan#serializer;2.7.1!serializer.jar(doc)
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT compile produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-compile.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT runtime produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-runtime.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT test produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-test.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT provided produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-provided.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT optional produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-optional.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT compile-internal produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-compile-internal.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT runtime-internal produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-runtime-internal.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT test-internal produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-test-internal.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT plugin produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-plugin.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT sources produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-sources.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT docs produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-docs.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT pom produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-pom.xml
-[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT scala-tool produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-scala-tool.xml
-[debug] 	resolve done (2057ms resolve - 265ms download)
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT compile produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-compile.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT runtime produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-runtime.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT test produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-test.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT provided produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-provided.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT optional produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-optional.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT compile-internal produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-compile-internal.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT runtime-internal produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-runtime-internal.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT test-internal produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-test-internal.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT plugin produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-plugin.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT sources produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-sources.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT docs produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-docs.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT pom produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-pom.xml
+[debug] 	report for helloakka#helloakka$sources_javadoc_2.11;1.0-SNAPSHOT scala-tool produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_javadoc_2.11-scala-tool.xml
+[debug] 	resolve done (2413ms resolve - 235ms download)

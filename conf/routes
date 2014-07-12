@@ -3,14 +3,15 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index()
-GET     /dowork                     controllers.Application.doWork()
-GET     /doGlobalWork               controllers.Application.doGlobalWork()
-GET     /doGlobalWorkWithName       controllers.Application.doGlobalWorkWithName()
-GET     /serviceCallTell            controllers.Application.serviceCallTell()
-GET     /serviceCallAsk             controllers.Application.serviceCallAsk()
-GET     /serviceCallError           controllers.Application.serviceCallError()
-GET     /complexService             controllers.Application.complexService()
+GET     /                                               controllers.Application.index()
+GET     /dowork                                         controllers.Application.doWork()
+GET     /doGlobalWork                                   controllers.Application.doGlobalWork()
+GET     /doGlobalWorkWithName                           controllers.Application.doGlobalWorkWithName()
+GET     /serviceCallTell                                controllers.Application.serviceCallTell()
+GET     /serviceCallAsk                                 controllers.Application.serviceCallAsk()
+GET     /serviceCallError                               controllers.Application.serviceCallError()
+GET     /complexService                                 controllers.Application.complexService()
+GET     /FaultTolerantComplexServiceActor               controllers.Application.FaultTolerantComplexServiceActor()
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.at(path="/public", file)
+GET     /assets/*file                                   controllers.Assets.at(path="/public", file)

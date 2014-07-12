@@ -4,7 +4,7 @@
 		module="helloakka$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20140708145949"
+		publication="20140711163642"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

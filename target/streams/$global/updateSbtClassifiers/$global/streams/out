@@ -2932,9 +2932,9 @@
 [debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar
 [debug] 	[NOT REQUIRED] jfree#jcommon;1.0.12!jcommon.jar
 [debug] 	[NOT REQUIRED] jfree#jfreechart;1.0.8a!jfreechart.jar
-[debug] :: resolution report :: resolve 967ms :: artifacts dl 58ms
-[debug] 	report for helloakka#helloakka$sbt_2.11;1.0-SNAPSHOT default produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sbt_2.11-default.xml
-[debug] 	resolve done (967ms resolve - 58ms download)
+[debug] :: resolution report :: resolve 2593ms :: artifacts dl 59ms
+[debug] 	report for helloakka#helloakka$sbt_2.11;1.0-SNAPSHOT default produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sbt_2.11-default.xml
+[debug] 	resolve done (2593ms resolve - 59ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: helloakka#helloakka$sources_2.11;1.0-SNAPSHOT
 [debug] 	confs: [default]
@@ -4164,12 +4164,12 @@
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-rjs;1.0.1!sbt-rjs.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-digest;1.0.0!sbt-digest.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.sbt#sbt-mocha;1.0.0!sbt-mocha.jar(src)
-[debug] :: resolution report :: resolve 476ms :: artifacts dl 934ms
+[debug] :: resolution report :: resolve 555ms :: artifacts dl 2727ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	:: xalan#serializer;2.7.1!serializer.jar(src)
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[debug] 	report for helloakka#helloakka$sources_2.11;1.0-SNAPSHOT default produced in /Users/ubrauch/java/HelloAkka/target/resolution-cache/reports/helloakka-helloakka$sources_2.11-default.xml
-[debug] 	resolve done (476ms resolve - 934ms download)
+[debug] 	report for helloakka#helloakka$sources_2.11;1.0-SNAPSHOT default produced in /Users/ubrauch/java/helloakka/target/resolution-cache/reports/helloakka-helloakka$sources_2.11-default.xml
+[debug] 	resolve done (555ms resolve - 2727ms download)

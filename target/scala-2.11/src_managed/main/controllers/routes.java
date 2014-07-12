@@ -1,6 +1,6 @@
-// @SOURCE:/Users/ubrauch/java/HelloAkka/conf/routes
-// @HASH:e9c80dd3117da6aebff4ff9e59194b8b5e9f58af
-// @DATE:Tue Jul 08 07:49:26 EDT 2014
+// @SOURCE:/Users/ubrauch/java/helloakka/conf/routes
+// @HASH:91a73174c3be92ad31b9c6c378ffc385ed894aba
+// @DATE:Fri Jul 11 17:06:42 EDT 2014
 
 package controllers;
 

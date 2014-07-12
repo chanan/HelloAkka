@@ -1,6 +1,6 @@
-// @SOURCE:/Users/ubrauch/java/HelloAkka/conf/routes
-// @HASH:e9c80dd3117da6aebff4ff9e59194b8b5e9f58af
-// @DATE:Tue Jul 08 07:49:26 EDT 2014
+// @SOURCE:/Users/ubrauch/java/helloakka/conf/routes
+// @HASH:91a73174c3be92ad31b9c6c378ffc385ed894aba
+// @DATE:Fri Jul 11 17:06:42 EDT 2014
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -15,7 +15,8 @@ import _root_.play.libs.F
 import Router.queryString
 
 
-// @LINE:16
+// @LINE:17
+// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -26,11 +27,11 @@ import Router.queryString
 // @LINE:6
 package controllers {
 
-// @LINE:16
+// @LINE:17
 class ReverseAssets {
 
 
-// @LINE:16
+// @LINE:17
 def at(file:String): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
@@ -40,6 +41,7 @@ def at(file:String): Call = {
 }
                           
 
+// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -62,6 +64,13 @@ def doGlobalWorkWithName(): Call = {
 def serviceCallError(): Call = {
    import ReverseRouteContext.empty
    Call("GET", _prefix + { _defaultPrefix } + "serviceCallError")
+}
+                        
+
+// @LINE:14
+def FaultTolerantComplexServiceActor(): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "FaultTolerantComplexServiceActor")
 }
                         
 
@@ -113,7 +122,8 @@ def serviceCallAsk(): Call = {
                   
 
 
-// @LINE:16
+// @LINE:17
+// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -125,11 +135,11 @@ def serviceCallAsk(): Call = {
 package controllers.javascript {
 import ReverseRouteContext.empty
 
-// @LINE:16
+// @LINE:17
 class ReverseAssets {
 
 
-// @LINE:16
+// @LINE:17
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -143,6 +153,7 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -171,6 +182,17 @@ def serviceCallError : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function() {
       return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "serviceCallError"})
+      }
+   """
+)
+                        
+
+// @LINE:14
+def FaultTolerantComplexServiceActor : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.FaultTolerantComplexServiceActor",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "FaultTolerantComplexServiceActor"})
       }
    """
 )
@@ -248,7 +270,8 @@ def serviceCallAsk : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:16
+// @LINE:17
+// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -260,11 +283,11 @@ def serviceCallAsk : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
-// @LINE:16
+// @LINE:17
 class ReverseAssets {
 
 
-// @LINE:16
+// @LINE:17
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
@@ -273,6 +296,7 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
+// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -293,6 +317,12 @@ def doGlobalWorkWithName(): play.api.mvc.HandlerRef[_] = new play.api.mvc.Handle
 // @LINE:12
 def serviceCallError(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.serviceCallError(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "serviceCallError", Seq(), "GET", """""", _prefix + """serviceCallError""")
+)
+                      
+
+// @LINE:14
+def FaultTolerantComplexServiceActor(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.FaultTolerantComplexServiceActor(), HandlerDef(this.getClass.getClassLoader, "", "controllers.Application", "FaultTolerantComplexServiceActor", Seq(), "GET", """""", _prefix + """FaultTolerantComplexServiceActor""")
 )
                       
 

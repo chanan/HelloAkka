@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140708145949"/>
+		date="20140711163642"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-java-ws_2.11">
 			<revision name="2.3.1" status="release" pubdate="20140627011622" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="58">
@@ -299,11 +299,11 @@
 				<metadata-artifact status="no" details="" size="2544" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/ivy-8.0.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="optional, compile, provided, compile-internal" rev="8.0.5" rev-constraint-default="8.0.5" rev-constraint-dynamic="8.0.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="tomcat-servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="303695" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/srcs/tomcat-servlet-api-8.0.5-sources.jar">
-						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5-sources.jar"/>
-					</artifact>
 					<artifact name="tomcat-servlet-api" type="jar" ext="jar" status="no" details="" size="243533" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.5.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5.jar"/>
+					</artifact>
+					<artifact name="tomcat-servlet-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="303695" time="0" location="/Users/ubrauch/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/srcs/tomcat-servlet-api-8.0.5-sources.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/apache/tomcat/tomcat-servlet-api/8.0.5/tomcat-servlet-api-8.0.5-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
