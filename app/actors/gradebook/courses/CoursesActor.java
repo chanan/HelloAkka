@@ -19,6 +19,7 @@ public class CoursesActor extends AbstractActor {
     private ActorRef getCourse(String courseId) {
         final ActorRef course = getContext().getChild("course_" + courseId);
         if(course != null) return course;
-        return getContext().actorOf(Props.create(CourseActor.class, courseId), "course_" + courseId);
+        //return getContext().actorOf(Props.create(CourseActor.class, courseId), "course_" + courseId);
+        return getContext().actorOf(Props.create(FaultTolerantCourseActor.class, courseId), "course_" + courseId);
     }
 }
