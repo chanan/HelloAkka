@@ -1,6 +1,7 @@
 package actors;
 
 import akka.actor.AbstractActor;
+import akka.actor.AbstractActorWithStash;
 import akka.actor.ActorRef;
 import akka.actor.Props;
 import akka.japi.pf.ReceiveBuilder;
@@ -19,7 +20,7 @@ public class ComplexServiceActor extends AbstractActor {
         );
     }
 
-    public static class CoordinatorActor extends AbstractActor {
+    public static class CoordinatorActor extends AbstractActorWithStash {
         public CoordinatorActor() {
             receive(
                     ReceiveBuilder.match(Queries.ToUpperRequest.class, request -> {
@@ -37,7 +38,6 @@ public class ComplexServiceActor extends AbstractActor {
                                             ReceiveBuilder.match(Queries.ToFirstCharLowerResponse.class, response2 -> {
                                                 Logger.debug("About CoordinatorActor ToFirstCharLowerResponse: " + self().toString() + " Thread: " + Thread.currentThread().getName());
                                                 sender.tell(response2, self());
-                                                context().stop(self());
                                             }).build()
                                     );
                                 }).build()
@@ -52,12 +52,12 @@ public class ComplexServiceActor extends AbstractActor {
             receive(
                     ReceiveBuilder.match(Queries.ToUpperRequest.class, request -> {
                         Logger.debug("About ToUpperRequest service: " + self().toString() + " Thread: " + Thread.currentThread().getName());
-                        Thread.sleep(3000);
+                        Thread.sleep(1000);
                         sender().tell(new Queries.ToUpperResponse(request.input, request.input.toUpperCase()), self());
                         context().stop(self());
                     }).match(Queries.ToFirstCharLowerRequest.class, request -> {
                         Logger.debug("About ToFirstCharLowerRequest service: " + self().toString() + " Thread: " + Thread.currentThread().getName());
-                        Thread.sleep(2000);
+                        Thread.sleep(1000);
                         final String temp = request.input.substring(0, 1).toLowerCase() + request.input.substring(1);
                         sender().tell(new Queries.ToFirstCharLowerResponse(request.input, temp), self());
                         context().stop(self());
