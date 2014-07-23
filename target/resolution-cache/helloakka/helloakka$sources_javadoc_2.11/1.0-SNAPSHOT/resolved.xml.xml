@@ -4,7 +4,7 @@
 		module="helloakka$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20140712105810"
+		publication="20140719180054"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -393,7 +393,7 @@
 			<artifact name="xalan" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="xalan" name="serializer" rev="2.7.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
-			<artifact name="serializer" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="serializer" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="commons-collections" name="commons-collections" rev="3.2.1" transitive="false" conf="test->default(compile);test-internal->default(compile)">
 			<artifact name="commons-collections" type="src" ext="jar" conf="sources" e:classifier="sources"/>

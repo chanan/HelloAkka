@@ -1,9 +1,10 @@
 package models.courses;
 
+import models.RequestBase;
 import viewmodels.courses.Course;
 
 public class Queries {
-    public static class CourseRequest {
+    public static class CourseRequest extends RequestBase {
         public final String course;
 
         public CourseRequest(String course) {

@@ -9,7 +9,7 @@ public class WorkActor extends AbstractActor {
         receive(
                 ReceiveBuilder.matchAny(obj -> {
                     Logger.debug("About me: " + self().toString() + " Thread: " + Thread.currentThread().getName());
-                    Thread.sleep(5000);
+                    Thread.sleep(1000);
                     Logger.debug("Did the work: " + obj.toString().toUpperCase());
                 }).build()
         );

@@ -26,19 +26,19 @@ public class FaultTolerantComplexServiceActor extends AbstractActor {
     }
 
     public static class SupervisorActor extends AbstractActor {
-        private ActorRef sender;
+        private ActorRef originalSender;
         private Object request;
         private ActorContext context;
 
         private SupervisorStrategy strategy =
                 new OneForOneStrategy(10, Duration.create("1 minute"), DeciderBuilder.
                         match(IllegalArgumentException.class, e -> {
-                            sender.tell(new Queries.FailureToUpResponse(request, "Cannot handle the string 'error'!"), self());
+                            originalSender.tell(new Queries.FailureToUpResponse(request, "Cannot handle the string 'error'!"), self());
                             return stop();
                         }).match(IllegalAccessException.class, e -> {
                             Logger.info("Lets retry our work!");
                             final ActorRef worker = context().actorOf(Props.create(CoordinatorActor.class));
-                            worker.tell(request, sender);
+                            worker.tell(request, originalSender);
                             return stop();
                         }).
                         matchAny(o -> escalate()).build());
@@ -51,7 +51,7 @@ public class FaultTolerantComplexServiceActor extends AbstractActor {
         public SupervisorActor() {
             receive(
                     ReceiveBuilder.matchAny(obj -> {
-                        sender = sender();
+                        originalSender = sender();
                         context = context();
                         request = obj;
                         final ActorRef worker = context().actorOf(Props.create(CoordinatorActor.class));

@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140712105810"/>
+		date="20140719180055"/>
 	<dependencies>
 		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
 			<revision name="2.0.2" status="release" pubdate="20140505203959" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="58">

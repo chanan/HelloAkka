@@ -28,7 +28,7 @@ public class ServiceActor extends AbstractActor {
             receive(
                     ReceiveBuilder.match(Queries.ToUpperRequest.class, request -> {
                         Logger.debug("About me: " + self().toString() + " Thread: " + Thread.currentThread().getName());
-                        Thread.sleep(5000);
+                        Thread.sleep(1000);
                         Logger.debug("Did the work: " + request.input.toUpperCase() + "-" + count);
                         final Queries.ToUpperResponse response = new Queries.ToUpperResponse(request.input, request.input.toUpperCase() + "-" + count);
                         sender().tell(response, self());

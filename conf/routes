@@ -15,6 +15,8 @@ GET     /FaultTolerantComplexServiceActor               controllers.Application.
 
 # Cassandra
 GET     /gradebook/course/:courseId                     controllers.Gradebook.course(courseId)
+GET     /gradebookstatus/course/:courseId               controllers.GradebookWithStatus.course(courseId)
+
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file                                   controllers.Assets.at(path="/public", file)

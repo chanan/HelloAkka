@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140712105810"/>
+		date="20140719180055"/>
 	<dependencies>
 		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
 			<revision name="2.0.2" status="release" pubdate="20140505203959" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="55">
@@ -618,7 +618,7 @@
 				<metadata-artifact status="no" details="" size="2619" time="0" location="/Users/ubrauch/.ivy2/cache/xalan/serializer/ivy-2.7.1.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.pom"/>
 				<caller organisation="helloakka" name="helloakka$sources_javadoc_2.11" conf="test, compile, runtime" rev="2.7.1" rev-constraint-default="2.7.1" rev-constraint-dynamic="2.7.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="serializer" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
+					<artifact name="serializer" type="doc" ext="jar" extra-classifier="javadoc" status="failed" details="" size="0" time="0"/>
 					<artifact name="serializer" type="jar" ext="jar" status="no" details="" size="278281" time="0" location="/Users/ubrauch/.ivy2/cache/xalan/serializer/jars/serializer-2.7.1.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/xalan/serializer/2.7.1/serializer-2.7.1.jar"/>
 					</artifact>

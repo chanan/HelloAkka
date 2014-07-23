@@ -61,7 +61,7 @@ public class FaultTolerantServiceActor extends AbstractActor {
                     ReceiveBuilder.match(Queries.ToUpperRequest.class, request -> {
                         Logger.debug("About me: " + self().toString() + " Thread: " + Thread.currentThread().getName());
                         if(request.input.equals("error")) throw new IllegalArgumentException("Cannot handle the word error!");
-                        Thread.sleep(5000);
+                        Thread.sleep(1000);
                         Logger.debug("Did the work: " + request.input.toUpperCase() + "-" + count);
                         final Queries.ToUpperResponse response = new Queries.ToUpperResponse(request.input, request.input.toUpperCase() + "-" + count);
                         sender().tell(response, self());

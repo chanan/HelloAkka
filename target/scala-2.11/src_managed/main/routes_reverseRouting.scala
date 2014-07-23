@@ -1,6 +1,6 @@
 // @SOURCE:/Users/ubrauch/java/helloakka/conf/routes
-// @HASH:9d0d5590a1f84f7473377486040e7856a7fa09b0
-// @DATE:Sat Jul 12 10:35:24 EDT 2014
+// @HASH:db805f4cf1bfca1d78c9c5cc5c7f9aae03045e6c
+// @DATE:Tue Jul 15 16:40:01 EDT 2014
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -15,7 +15,8 @@ import _root_.play.libs.F
 import Router.queryString
 
 
-// @LINE:20
+// @LINE:22
+// @LINE:18
 // @LINE:17
 // @LINE:14
 // @LINE:13
@@ -28,11 +29,11 @@ import Router.queryString
 // @LINE:6
 package controllers {
 
-// @LINE:20
+// @LINE:22
 class ReverseAssets {
 
 
-// @LINE:20
+// @LINE:22
 def at(file:String): Call = {
    implicit val _rrc = new ReverseRouteContext(Map(("path", "/public")))
    Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[PathBindable[String]].unbind("file", file))
@@ -50,6 +51,20 @@ class ReverseGradebook {
 def course(courseId:String): Call = {
    import ReverseRouteContext.empty
    Call("GET", _prefix + { _defaultPrefix } + "gradebook/course/" + implicitly[PathBindable[String]].unbind("courseId", dynamicString(courseId)))
+}
+                        
+
+}
+                          
+
+// @LINE:18
+class ReverseGradebookWithStatus {
+
+
+// @LINE:18
+def course(courseId:String): Call = {
+   import ReverseRouteContext.empty
+   Call("GET", _prefix + { _defaultPrefix } + "gradebookstatus/course/" + implicitly[PathBindable[String]].unbind("courseId", dynamicString(courseId)))
 }
                         
 
@@ -137,7 +152,8 @@ def serviceCallAsk(): Call = {
                   
 
 
-// @LINE:20
+// @LINE:22
+// @LINE:18
 // @LINE:17
 // @LINE:14
 // @LINE:13
@@ -151,11 +167,11 @@ def serviceCallAsk(): Call = {
 package controllers.javascript {
 import ReverseRouteContext.empty
 
-// @LINE:20
+// @LINE:22
 class ReverseAssets {
 
 
-// @LINE:20
+// @LINE:22
 def at : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Assets.at",
    """
@@ -179,6 +195,24 @@ def course : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function(courseId) {
       return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "gradebook/course/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("courseId", encodeURIComponent(courseId))})
+      }
+   """
+)
+                        
+
+}
+              
+
+// @LINE:18
+class ReverseGradebookWithStatus {
+
+
+// @LINE:18
+def course : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.GradebookWithStatus.course",
+   """
+      function(courseId) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "gradebookstatus/course/" + (""" + implicitly[PathBindable[String]].javascriptUnbind + """)("courseId", encodeURIComponent(courseId))})
       }
    """
 )
@@ -304,7 +338,8 @@ def serviceCallAsk : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
-// @LINE:20
+// @LINE:22
+// @LINE:18
 // @LINE:17
 // @LINE:14
 // @LINE:13
@@ -318,11 +353,11 @@ def serviceCallAsk : JavascriptReverseRoute = JavascriptReverseRoute(
 package controllers.ref {
 
 
-// @LINE:20
+// @LINE:22
 class ReverseAssets {
 
 
-// @LINE:20
+// @LINE:22
 def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Assets.at(path, file), HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]), "GET", """ Map static resources from the /public folder to the /assets URL path""", _prefix + """assets/$file<.+>""")
 )
@@ -338,6 +373,19 @@ class ReverseGradebook {
 // @LINE:17
 def course(courseId:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Gradebook.course(courseId), HandlerDef(this.getClass.getClassLoader, "", "controllers.Gradebook", "course", Seq(classOf[String]), "GET", """ Cassandra""", _prefix + """gradebook/course/$courseId<[^/]+>""")
+)
+                      
+
+}
+                          
+
+// @LINE:18
+class ReverseGradebookWithStatus {
+
+
+// @LINE:18
+def course(courseId:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.GradebookWithStatus.course(courseId), HandlerDef(this.getClass.getClassLoader, "", "controllers.GradebookWithStatus", "course", Seq(classOf[String]), "GET", """""", _prefix + """gradebookstatus/course/$courseId<[^/]+>""")
 )
                       
 

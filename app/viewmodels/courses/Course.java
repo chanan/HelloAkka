@@ -1,8 +1,10 @@
 package viewmodels.courses;
 
+import viewmodels.ViewModelBase;
+
 import java.util.List;
 
-public class Course {
+public class Course extends ViewModelBase {
     public final String courseId;
     public final String name;
     public final List<Student> students;

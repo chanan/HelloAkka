@@ -1,6 +1,6 @@
 // @SOURCE:/Users/ubrauch/java/helloakka/conf/routes
-// @HASH:9d0d5590a1f84f7473377486040e7856a7fa09b0
-// @DATE:Sat Jul 12 10:35:24 EDT 2014
+// @HASH:db805f4cf1bfca1d78c9c5cc5c7f9aae03045e6c
+// @DATE:Tue Jul 15 16:40:01 EDT 2014
 
 
 import play.core._
@@ -102,13 +102,20 @@ controllers.Gradebook.course(fakeValue[String]),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Gradebook", "course", Seq(classOf[String]),"GET", """ Cassandra""", Routes.prefix + """gradebook/course/$courseId<[^/]+>"""))
         
 
-// @LINE:20
-private[this] lazy val controllers_Assets_at10_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
-private[this] lazy val controllers_Assets_at10_invoker = createInvoker(
+// @LINE:18
+private[this] lazy val controllers_GradebookWithStatus_course10_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("gradebookstatus/course/"),DynamicPart("courseId", """[^/]+""",true))))
+private[this] lazy val controllers_GradebookWithStatus_course10_invoker = createInvoker(
+controllers.GradebookWithStatus.course(fakeValue[String]),
+HandlerDef(this.getClass.getClassLoader, "", "controllers.GradebookWithStatus", "course", Seq(classOf[String]),"GET", """""", Routes.prefix + """gradebookstatus/course/$courseId<[^/]+>"""))
+        
+
+// @LINE:22
+private[this] lazy val controllers_Assets_at11_route = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("assets/"),DynamicPart("file", """.+""",false))))
+private[this] lazy val controllers_Assets_at11_invoker = createInvoker(
 controllers.Assets.at(fakeValue[String], fakeValue[String]),
 HandlerDef(this.getClass.getClassLoader, "", "controllers.Assets", "at", Seq(classOf[String], classOf[String]),"GET", """ Map static resources from the /public folder to the /assets URL path""", Routes.prefix + """assets/$file<.+>"""))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """dowork""","""controllers.Application.doWork()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """doGlobalWork""","""controllers.Application.doGlobalWork()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """doGlobalWorkWithName""","""controllers.Application.doGlobalWorkWithName()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """serviceCallTell""","""controllers.Application.serviceCallTell()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """serviceCallAsk""","""controllers.Application.serviceCallAsk()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """serviceCallError""","""controllers.Application.serviceCallError()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """complexService""","""controllers.Application.complexService()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """FaultTolerantComplexServiceActor""","""controllers.Application.FaultTolerantComplexServiceActor()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """gradebook/course/$courseId<[^/]+>""","""controllers.Gradebook.course(courseId:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """dowork""","""controllers.Application.doWork()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """doGlobalWork""","""controllers.Application.doGlobalWork()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """doGlobalWorkWithName""","""controllers.Application.doGlobalWorkWithName()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """serviceCallTell""","""controllers.Application.serviceCallTell()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """serviceCallAsk""","""controllers.Application.serviceCallAsk()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """serviceCallError""","""controllers.Application.serviceCallError()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """complexService""","""controllers.Application.complexService()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """FaultTolerantComplexServiceActor""","""controllers.Application.FaultTolerantComplexServiceActor()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """gradebook/course/$courseId<[^/]+>""","""controllers.Gradebook.course(courseId:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """gradebookstatus/course/$courseId<[^/]+>""","""controllers.GradebookWithStatus.course(courseId:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]]
 }}
@@ -196,10 +203,18 @@ case controllers_Gradebook_course9_route(params) => {
 }
         
 
-// @LINE:20
-case controllers_Assets_at10_route(params) => {
+// @LINE:18
+case controllers_GradebookWithStatus_course10_route(params) => {
+   call(params.fromPath[String]("courseId", None)) { (courseId) =>
+        controllers_GradebookWithStatus_course10_invoker.call(controllers.GradebookWithStatus.course(courseId))
+   }
+}
+        
+
+// @LINE:22
+case controllers_Assets_at11_route(params) => {
    call(Param[String]("path", Right("/public")), params.fromPath[String]("file", None)) { (path, file) =>
-        controllers_Assets_at10_invoker.call(controllers.Assets.at(path, file))
+        controllers_Assets_at11_invoker.call(controllers.Assets.at(path, file))
    }
 }
         
