@@ -1,6 +1,6 @@
 // @SOURCE:/Users/ubrauch/java/helloakka/conf/routes
 // @HASH:db805f4cf1bfca1d78c9c5cc5c7f9aae03045e6c
-// @DATE:Tue Jul 15 16:40:01 EDT 2014
+// @DATE:Wed Aug 27 16:28:53 EDT 2014
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._

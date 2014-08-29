@@ -53,8 +53,8 @@ Seq[Any](format.raw/*1.32*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Mon Jul 07 12:21:51 EDT 2014
-                  SOURCE: /Users/ubrauch/java/HelloAkka/app/views/main.scala.html
+                  DATE: Wed Aug 27 16:28:53 EDT 2014
+                  SOURCE: /Users/ubrauch/java/helloakka/app/views/main.scala.html
                   HASH: 2161330b6434d5bb9afcd5e16006e0def9590b71
                   MATRIX: 727->1|845->31|873->33|950->84|975->89|1063->151|1077->157|1131->191|1218->252|1232->258|1284->290|1336->315|1351->321|1406->355|1500->422|1528->429|1560->434
                   LINES: 26->1|29->1|31->3|35->7|35->7|36->8|36->8|36->8|37->9|37->9|37->9|38->10|38->10|38->10|41->13|41->13|42->14
