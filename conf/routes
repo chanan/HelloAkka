@@ -17,6 +17,10 @@ GET     /FaultTolerantComplexServiceActor               controllers.Application.
 GET     /gradebook/course/:courseId                     controllers.Gradebook.course(courseId)
 GET     /gradebookstatus/course/:courseId               controllers.GradebookWithStatus.course(courseId)
 
+# Count
+GET     /count/add                                      controllers.Counter.add(count: Int ?= 1)
+GET     /count/count                                    controllers.Counter.count
+
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file                                   controllers.Assets.at(path="/public", file)
