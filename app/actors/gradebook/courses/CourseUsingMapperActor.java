@@ -8,8 +8,6 @@ import com.datastax.driver.core.Session;
 import com.datastax.driver.mapping.MappingManager;
 import models.ResponseBase;
 import models.courses.Queries;
-import models.statuses.ActorStatus;
-import models.statuses.StatusCreator;
 import play.Logger;
 import play.libs.Akka;
 import queries.CourseAccessor;
@@ -49,19 +47,21 @@ public class CourseUsingMapperActor extends AbstractActor {
         private Optional<StudentsDataResponse> studentsDataResponse = Optional.empty();
         private ActorRef sender;
         private Queries.CourseRequest request;
+        private int attempt;
 
         private SupervisorStrategy strategy =
                 new AllForOneStrategy(10, Duration.create("1 minute"), DeciderBuilder.
                         match(IllegalAccessException.class, e -> {
+                            //Lets retry
                             Logger.error("IllegalAccessException caught in Supervisor of CoordinatorActor", e);
                             context().unbecome();
                             self().tell(request, sender);
                             return stop();
                         }).
                         match(IllegalArgumentException.class, e -> {
+                            //Give up and send back an error
                             Logger.error("IllegalArgumentException caught in Supervisor of CoordinatorActor", e);
-                            final StatusCreator status = ActorStatus.Create().setFailure(e, request);
-                            sender.tell(status, self());
+                            sender.tell(e, self());
                             context().stop(self());
                             return stop();
                         }).build());
@@ -76,8 +76,8 @@ public class CourseUsingMapperActor extends AbstractActor {
                     ReceiveBuilder.match(Queries.CourseRequest.class, request -> {
                         this.sender = sender();
                         this.request = request;
-                        final ActorRef course = context().actorOf(Props.create(DataWorker.class, session), "course_worker");
-                        final ActorRef students = context().actorOf(Props.create(DataWorker.class, session), "students_worker");
+                        final ActorRef course = context().actorOf(Props.create(DataWorker.class, session), "course_worker-" + (++attempt));
+                        final ActorRef students = context().actorOf(Props.create(DataWorker.class, session), "students_worker-" + attempt);
                         course.tell(new CourseDataRequest(request), self());
                         students.tell(new StudentsDataRequest(request), self());
                         context().become(
@@ -95,10 +95,9 @@ public class CourseUsingMapperActor extends AbstractActor {
 
         private void createViewModel() {
             if(courseDataResponse.isPresent() && studentsDataResponse.isPresent()) {
-                final Course viewmodel = new Course(request.course, courseDataResponse.get().name, studentsDataResponse.get().students);
-                final ResponseBase response = new ResponseBase(request, viewmodel);
-                final StatusCreator status = ActorStatus.Create().setSuccess(response, request);
-                sender.tell(status, self());
+                final Course viewmodel = new Course(request, request.course, courseDataResponse.get().name, studentsDataResponse.get().students);
+                //final ResponseBase response = new ResponseBase(request, viewmodel);
+                sender.tell(viewmodel, self());
                 context().stop(self());
             }
         }

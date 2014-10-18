@@ -23,7 +23,7 @@ public class GradebookWithStatus extends Controller {
     private static final ActorRef gradebookActor = Akka.system().actorOf(Props.create(GradebookActor.class), "gradebook_with_status");
 
     public static F.Promise<Result> course(String courseId) {
-        return getResultPromise(gradebookActor, new Queries.CourseRequest(courseId));
+        return getResultPromise(gradebookActor, new Queries.CourseRequest(1, null, courseId));
     }
 
     private static F.Promise<Result> getResultPromise(ActorRef actorRef, RequestBase request) {

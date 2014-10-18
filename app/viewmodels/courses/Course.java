@@ -1,5 +1,6 @@
 package viewmodels.courses;
 
+import models.RequestBase;
 import viewmodels.ViewModelBase;
 
 import java.util.List;
@@ -9,7 +10,8 @@ public class Course extends ViewModelBase {
     public final String name;
     public final List<Student> students;
 
-    public Course(String courseId, String name, List<Student> students) {
+    public Course(RequestBase request, String courseId, String name, List<Student> students) {
+        super(request);
         this.courseId = courseId;
         this.name = name;
         this.students = students;

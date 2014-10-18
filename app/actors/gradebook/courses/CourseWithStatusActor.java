@@ -94,7 +94,7 @@ public class CourseWithStatusActor extends AbstractActor {
 
         private void createViewModel() {
             if(courseDataResponse.isPresent() && studentsDataResponse.isPresent()) {
-                final Course viewmodel = new Course(request.course, courseDataResponse.get().name, studentsDataResponse.get().students);
+                final Course viewmodel = new Course(null, request.course, courseDataResponse.get().name, studentsDataResponse.get().students);
                 final ResponseBase response = new ResponseBase(request, viewmodel);
                 final StatusCreator status = ActorStatus.Create().setSuccess(response, request);
                 sender.tell(status, self());

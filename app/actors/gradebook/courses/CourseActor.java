@@ -66,7 +66,7 @@ public class CourseActor extends AbstractActor {
 
         private void createViewModel() {
             if(courseDataResponse.isPresent() && studentsDataResponse.isPresent()) {
-                final Course viewmodel = new Course(request.course, courseDataResponse.get().name, studentsDataResponse.get().students);
+                final Course viewmodel = new Course(null, request.course, courseDataResponse.get().name, studentsDataResponse.get().students);
                 final Queries.CourseResponse response = new Queries.CourseResponse(request, viewmodel);
                 sender.tell(response, self());
                 context().stop(self());

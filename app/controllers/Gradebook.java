@@ -18,7 +18,7 @@ public class Gradebook extends Controller {
     private static final ActorRef gradebookActor = Akka.system().actorOf(Props.create(GradebookActor.class), "gradebook");
 
     public static F.Promise<Result> course(String courseId) {
-        final Queries.CourseRequest request = new Queries.CourseRequest(courseId);
+        final Queries.CourseRequest request = new Queries.CourseRequest(1, null, courseId);
 
         return wrap(ask(gradebookActor, request, 5000)).map(obj -> {
             final Queries.CourseResponse response = (Queries.CourseResponse) obj;

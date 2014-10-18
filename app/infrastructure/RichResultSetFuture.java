@@ -8,9 +8,7 @@ import play.libs.Akka;
 import scala.concurrent.Future;
 import scala.concurrent.Promise;
 
-import java.util.List;
 import java.util.function.Function;
-import java.util.stream.Collectors;
 
 public class RichResultSetFuture<R> {
     private RichResultSetFuture() { }

@@ -1,7 +1,7 @@
 package models;
 
 public class Queries {
-    public static class ToUpperRequest extends RequestBase {
+    public static class ToUpperRequest {
         public final String input;
 
         public ToUpperRequest(String input) {
@@ -19,7 +19,7 @@ public class Queries {
         }
     }
 
-    public static class ToFirstCharLowerRequest extends RequestBase {
+    public static class ToFirstCharLowerRequest {
         public final String input;
 
         public ToFirstCharLowerRequest(String input) {
